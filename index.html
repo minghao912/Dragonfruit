@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>
+            Hello
+        </title>
+    </head>
+    <body>
+        <script>
+            document.write("Hello");
+            
+            var today = new Date();
+            var dd = String(today.getDate()).padStart(2, '0');
+            var mm = String(today.getMonth() + 1).padStart(2, '0');
+            var yyyy = today.getFullYear();
+
+            document.write("<br>");
+            document.write(`Today is ${dd}/${mm}/${yyyy}`);
+            document.write("<br><br>");
+            document.write("Redirecting...");
+            
+            var url = `http://gzdaily.dayoo.com/pc/html/${yyyy}-${mm}/${dd}/node_1.htm?v=1`;
+            window.location.href = url;
+        </script>
+    </body>
+</html>
