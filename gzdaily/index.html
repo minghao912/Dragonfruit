@@ -1,22 +1,44 @@
+<!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
         <title>
-            Hello
+            GZ Daily | Dragonfruit
         </title>
     </head>
     <body>
-        <script>
-            document.write("Hello");
-            
+        <!-- Create table to be populated later -->
+        <table align="center" width="500"></table>
+
+        <script>           
             var today = new Date();
             var dd = String(today.getDate()).padStart(2, '0');
             var mm = String(today.getMonth() + 1).padStart(2, '0');
             var yyyy = today.getFullYear();
 
-            document.write("<br>");
-            document.write(`Today is ${dd}/${mm}/${yyyy}`);
+            let data = [
+                {line1: "Hello!", line2: "Today is", line3: `${dd}/${mm}/${yyyy}`},
+                {line1: "你好!", line2: "今天是", line3: `${yyyy}年${mm}月${dd}日`},
+                {line1: "こんにちは!", line2: "今日は", line3: `${yyyy}年${mm}月${dd}日`}
+            ];
+
+            function genTable(table, data) {
+                for (let element of data) {
+                    let row = table.insertRow();
+                    for (key in element) {
+                        let cell = row.insertCell();
+                        let text = document.createTextNode(element[key]);
+                        cell.appendChild(text);
+                    }
+                }
+            }
+
+            let table = document.querySelector("table");
+            let header = Object.keys(data[0]);
+            genTable(table, data);
+
             document.write("<br><br>");
-            document.write("Redirecting...");
+            document.write("<center>Redirecting...</center>");
             
             var url = `http://gzdaily.dayoo.com/pc/html/${yyyy}-${mm}/${dd}/node_1.htm?v=1`;
             window.location.href = url;
