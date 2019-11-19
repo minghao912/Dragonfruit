@@ -1,3 +1,3 @@
 # Dragonfruit
 
-[/gzdaily](GZ Daily)
+[GZ Daily](/gzdaily)
