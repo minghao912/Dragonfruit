@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-firestore.js"></script>
+
+  </head>
+  <body>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyBEMkvSUdAO0xxsokhKEZsO1HNVK7WV2Vg",
+        authDomain: "starfruit-265316.firebaseapp.com",
+        databaseURL: "https://starfruit-265316.firebaseio.com",
+        projectId: "starfruit-265316",
+        storageBucket: "starfruit-265316.appspot.com",
+        messagingSenderId: "103872393480",
+        appId: "1:103872393480:web:5df05ceb956440e43afcbd",
+        measurementId: "G-0Y78QXJEBM"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+
+    <script src="script.js"></script>
+
+    <div class="buttons">
+      <button onclick="writeGreeting()"> write </button>
+      <button onClick="readGreeting()"> read </button>
+    </div>
+
+    <div id="results"></div>
+
+  </body>
+</html>
