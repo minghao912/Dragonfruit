@@ -1,0 +1,22 @@
+.buttons {
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center 
+}
+
+.resultString {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 72px;
+  color: aquamarine
+}
+
+button {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  width: 500px; // whatever your button's width
+  margin: 0 auto; // auto left/right margins
+  display: block;
+  background-color: #404040;
+  color: #ffffff;
+  font-size: 48px
+}
