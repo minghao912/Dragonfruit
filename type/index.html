@@ -17,20 +17,54 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col-md-6 mx-auto">
-                    <!-- Word & Input -->
+                    <!-- Word, Selector, and Input -->
+                    <div class="row mt-5 d-flex justify-content-center">
+                        <div class="col-md-5">
+                            <form class="form-horizontal">
+                                <div class="form-group form-group-lg">
+                                    <select class="form-control" id="level-selection">
+                                        <option selected>JLPT Level</option>
+                                        <option value="n1">N1</option>
+                                        <option value="n2">N2</option>
+                                        <option value="n3">N3</option>
+                                        <option value="n4">N4</option>
+                                        <option value="n5">N5</option>
+                                    </select>
+                                </div>
+                            </form>
+                        </div>
+                        
+                        <div class="col-md-5">
+                            <form class="form-horizontal">
+                                <div class="form-group form-group-lg">
+                                    <select class="form-control" id="time-selection">
+                                        <option selected>Timeframe</option>
+                                        <option value="60000">1:00</option>
+                                        <option value="120000">2:00</option>
+                                        <option value="180000">3:00</option>
+                                        <option value="240000">4:00</option>
+                                        <option value="300000">5:00</option>
+                                    </select>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <hr class="my-4" style="border-top: 1px solid white" />
+
                     <p class="lead remove-when-finished">Type the Word</p>
                     <h2 class="display-2 mb-5 remove-when-finished" id="current-word">&#x202F</h2>   <!-- Use U+202F NARROW NO-BREAK SPACE as placeholder text -->
                     <div class="remove-when-finished">             
                         <input type="text" class="form-control form-control-lg" placeholder="Start typing..." id="word-input" autofocus>
                     </div>
-                    <h4 class="mt-3" id="message"></h4>
+                    <h4 class="mt-3" id="message">&#x202F</h4> <!-- Use U+202F NARROW NO-BREAK SPACE as placeholder text -->
 
                     <!-- Time & Score -->
                     <div class="row mt-5">
                         <div class="col-md-6">
                             <h4>Time Remaining
                                 <br>
-                                <span id="time">01:00</span>
+                                <span id="time">Not Selected</span>
                             </h3>
                         </div>
 
@@ -47,7 +81,7 @@
                         <div class="col-md-12">
                             <div class="card card-body bg-secondary text-white">
                                 <h5>Instructions</h5>
-                                <p>Type as many words as you can within the specified timeframe. Words will appear randomly.</p>
+                                <p>Select your desired JLPT level and timeframe using the dropdown boxes at the top of the page. Type as many words as you can within the specified timeframe. Words will appear randomly. The timer will start once you click into the text box.</p>
                             </div>
                         </div>
                     </div>
