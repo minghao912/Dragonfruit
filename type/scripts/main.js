@@ -1,9 +1,8 @@
 window.addEventListener('load', init);
 
 //Globals
-let time;   //Start with 60 seconds
 let score = 0;
-let isPlaying;
+let time, isPlaying;
 
 //DOM Elements
 const levelSelection = document.querySelector('#level-selection');
