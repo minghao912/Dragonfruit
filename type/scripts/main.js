@@ -12,12 +12,7 @@ const scoreDisplay = document.querySelector('#score');
 const timeDisplay = document.querySelector('#time');
 const message = document.querySelector('#message');
 
-const words = [
-    'test',
-    'abc',
-    'change',
-    'later'
-];
+const words = loadFile('./scripts/file.txt').split('\n');
 
 //Initialize Game
 function init() {
@@ -40,9 +35,9 @@ function showWord(wordArray) {
 //Timer
 function countdown() {
     //Check time valid
-    if(time > 0) {
+    if (time > 0) {
         time -= 100;    //Decrement time by 100ms
-    } else if(time === 0) {
+    } else if (time === 0) {
         isPlaying = false;  //Game Over
     }
 
@@ -58,4 +53,15 @@ function checkStatus() {
             e.innerHTML = null;
         });
     }
+}
+
+//Load file
+function loadFile(filepath) {
+    let result;
+    let req = new XMLHttpRequest();
+    
+    req.open("GET", filepath, false);
+    req.send();
+
+    if (req.status == 200) return result = req.responseText;
 }
