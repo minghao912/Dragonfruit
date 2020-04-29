@@ -6,7 +6,7 @@ let score = 0;
 let isPlaying;
 
 //DOM Elements
-const wordInput = document.querySelector('#word-input');
+const wordInput = document.querySelector('#word-input');  
 const currentWord = document.querySelector('#current-word');
 const scoreDisplay = document.querySelector('#score');
 const timeDisplay = document.querySelector('#time');
@@ -52,5 +52,10 @@ function countdown() {
 
 //Check game status
 function checkStatus() {
-    if(!isPlaying && time === 0) message.innerHTML = 'Finished';
+    if(!isPlaying && time === 0) {
+        message.innerHTML = 'Finished';
+        document.querySelectorAll('.remove-when-finished').forEach(e => {
+            e.innerHTML = null;
+        });
+    }
 }
