@@ -1,3 +1,5 @@
+import {addWord, getWord} from './words.js';
+
 window.addEventListener('load', init);
 
 //Globals
@@ -48,6 +50,9 @@ function init() {
     setInterval(checkStartReq, 100) //Check requirements for game start
     
     setInterval(checkStatus, 50);   //Check game status
+
+    addWord(1, true);
+    console.log(getWord(0));
 }
 
 function checkStartReq() {
