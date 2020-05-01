@@ -1,4 +1,4 @@
-import {addWord, getWord} from './words.js';
+import * as wordDef from './wordDef.js';
 
 window.addEventListener('load', init);
 
@@ -51,8 +51,9 @@ function init() {
     
     setInterval(checkStatus, 50);   //Check game status
 
-    addWord(1, true);
-    console.log(getWord(0));
+    //Test section
+    wordDef.addWord(1, true);
+    console.log(wordDef.getWord(0));
 }
 
 function checkStartReq() {
