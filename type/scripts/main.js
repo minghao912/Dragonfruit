@@ -52,8 +52,8 @@ function init() {
     setInterval(checkStatus, 50);   //Check game status
 
     //Test section
-    wordDef.addWord(1, true);
-    console.log(wordDef.getWord(0));
+    wordDef.addWord(true, 137);
+    console.log(wordDef.getWord(true, 0));
 }
 
 function checkStartReq() {

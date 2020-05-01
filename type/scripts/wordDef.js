@@ -1,12 +1,12 @@
-let wordsTyped = [];
+let correctWords = [];
+let incorrectWords = [];
 
-export function addWord(index, correct) {
-    wordsTyped.push({
-        "index": index,
-        "correct": correct
-    });
+export function addWord(correct, index) {
+    if(correct) correctWords.push(index);
+    else if(!correct) incorrectWords.push(index);
+    else throw Error;
 }
 
-export function getWord(index) {
-    return wordsTyped[index];
+export function getWord(correct, index) {
+    return correct ? correctWords[index] : incorrectWords[index];
 }
