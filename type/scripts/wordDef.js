@@ -4,7 +4,7 @@ let incorrectWords = [];
 export function addWord(correct, index) {
     if(correct) correctWords.push(index);
     else if(!correct) incorrectWords.push(index);
-    else throw Error;
+    else throw new Error("This is not supposed to happen.");
 }
 
 export function getWord(correct, index) {
