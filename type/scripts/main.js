@@ -5,6 +5,7 @@ window.addEventListener('load', init);
 //Globals
 let score = 0;
 let time, isPlaying;
+let gameOverStatus = false;
 
 //DOM Elements
 const levelSelection = document.querySelector('#level-selection');
@@ -14,13 +15,13 @@ const currentWord = document.querySelector('#current-word');
 const scoreDisplay = document.querySelector('#score');
 const timeDisplay = document.querySelector('#time');
 const message = document.querySelector('#message');
+const resultSection = document.querySelector('#results-section');
 
 //const words = loadFileTXT('./scripts/file.txt').split('\n');
 let words, hiragana;
-
 let levelSelected = false, timeSelected = false;
-
 let gameStarted = false, timerStarted = false;
+let currentWordIndex;
 
 //Initialize Game
 function init() {
@@ -34,7 +35,11 @@ function init() {
         const selection = e.target.value;
 
         console.log(`User selected JLPT Level ${selection}`);
+
+        //Set JSONs in this file
         words = loadFileJSON(`./lists/${selection}-vocab-kanji-eng.json`);
+        hiragana = loadFileJSON(`./lists/${selection}-vocab-kanji-hiragana.json`);
+
         levelSelected = true;
     });
 
@@ -50,10 +55,6 @@ function init() {
     setInterval(checkStartReq, 100) //Check requirements for game start
     
     setInterval(checkStatus, 50);   //Check game status
-
-    //Test section
-    wordDef.addWord(true, 137);
-    console.log(wordDef.getWord(true, 0));
 }
 
 function checkStartReq() {
@@ -92,10 +93,20 @@ function startMatch() {
     
     isPlaying = true;
     wordInput.value = '';
-    showWord(words);
-    
-    if(match)    
+
+    //Check match and update array in wordDef
+    if (match) {
         score++;
+        wordDef.addWord(true, currentWordIndex);
+    } else if (!match)
+        wordDef.addWord(false, currentWordIndex);
+
+    //Generate and display new word
+    showWord(words);
+
+    //Test
+    console.log('Current correct words: ' + wordDef.getArray(true));
+    console.log('Current incorrect words: ' + wordDef.getArray(false));
 
     scoreDisplay.innerHTML = score; //Update score element
 }
@@ -115,14 +126,17 @@ function showWord(wordArray) {
     //Try accessing the wordArray JSON
     let word;
     try {
-        word = wordArray[randomIndex].Front;
+        do {
+            word = wordArray[randomIndex].Front;
+        } while(word.includes('/[/・]'));
     } catch (error) {
-        console.log('Failed accessing wordArray');
+        console.log('Failed accessing wordArray\n' + error);
         return false;
     }
     
     console.log(`New word sent: ${word}`);
     currentWord.innerHTML = word;
+    currentWordIndex = randomIndex;
     return true;
 }
 
@@ -145,12 +159,47 @@ function updateTimeRemaining() {
 
 //Check game status
 function checkStatus() {
-    if(!isPlaying && time === 0) {
+    //Game over
+    if(!gameOverStatus && !isPlaying && time === 0) {
         message.innerHTML = 'Finished';
+        gameOverStatus = true;
         document.querySelectorAll('.remove-when-finished').forEach(e => {
             e.innerHTML = null;
         });
+
+        //Test
+        wordDef.getArray(true).forEach(e => console.log(e));
+        wordDef.getArray(false).forEach(f => console.log(f));
+
+        //Show results
+        showResults(words, hiragana);
     }
+}
+
+function showResults(kanjiList, hiraganaList) {
+    //Test
+    console.log(kanjiList);
+    console.log(hiraganaList);
+            
+    let resultSectionHTML = '';
+
+    resultSectionHTML += `<h5>Correct Words<h5>`;
+    wordDef.getArray(true).forEach(e => {
+        console.log(`Generating card for index ${e}`);
+        //resultSectionHTML += `<div class="card card-body bg-secondary text-white"><p>${kanjiList[e].Front}</p><br><p>${hiraganaList[e].Back}</p></div>`;
+        resultSectionHTML += `<div class="card card-body bg-secondary text-white my-2"><p>${kanjiList[e].Front}</p></div>`;
+    });
+
+    resultSectionHTML += '<hr class="my-4" style="border-top: 1px solid white" />';
+
+    resultSectionHTML += '<h5>Incorrect Words<h5>';
+    wordDef.getArray(false).forEach(f => {
+        console.log(`Generating card for index ${f}`);
+        //resultSectionHTML += `<div class="card card-body bg-secondary text-white"><p>${kanjiList[f].Front}</p><br><p>${hiraganaList[f].Back}</p></div>`;
+        resultSectionHTML += `<div class="card card-body bg-secondary text-white my-2"><p>${kanjiList[f].Front}</p></div>`;
+    });
+
+    resultSection.innerHTML = resultSectionHTML;
 }
 
 //Load file (txt)
