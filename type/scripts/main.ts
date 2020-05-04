@@ -1,4 +1,5 @@
 import * as wordDef from './wordDef';
+import * as loadFile from './loadFile';
 
 window.addEventListener('load', init);
 
@@ -37,8 +38,8 @@ function init() {
         console.log(`User selected JLPT Level ${selection}`);
 
         //Set JSONs in this file
-        words = loadFileJSON(`./lists/${selection}-vocab-kanji-eng.json`);
-        hiragana = loadFileJSON(`./lists/${selection}-vocab-kanji-hiragana.json`);
+        words = loadFile.loadFileJSON(`./lists/${selection}-vocab-kanji-eng.json`);
+        hiragana = loadFile.loadFileJSON(`./lists/${selection}-vocab-kanji-hiragana.json`);
 
         levelSelected = true;
     });
@@ -200,26 +201,4 @@ function showResults(kanjiList: any[], hiraganaList: any[]) {
     });
 
     resultSection!.innerHTML = resultSectionHTML;
-}
-
-//Load file (txt)
-function loadFileTXT(filepath: string) {
-    let req = new XMLHttpRequest();
-
-    req.open("GET", filepath, false);
-    req.send();
-
-    if (req.status == 200) return req.responseText;
-}
-
-//Load file (json)
-function loadFileJSON(filepath: string) {
-    let result: any[] = [];
-    fetch(filepath).then(response => response.json()).then(json => {
-        for (const e of json)
-            result.push(e);
-    });
-
-    console.log(`Loaded file ${filepath}`);
-    return result;
 }

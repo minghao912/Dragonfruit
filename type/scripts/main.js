@@ -8,6 +8,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 import * as wordDef from './wordDef.js';
+import * as loadFile from './loadFile.js';
 window.addEventListener('load', init);
 //Globals
 var score = 0;
@@ -39,8 +40,8 @@ function init() {
         var selection = e.target.value;
         console.log("User selected JLPT Level " + selection);
         //Set JSONs in this file
-        words = loadFileJSON("./lists/" + selection + "-vocab-kanji-eng.json");
-        hiragana = loadFileJSON("./lists/" + selection + "-vocab-kanji-hiragana.json");
+        words = loadFile.loadFileJSON("./lists/" + selection + "-vocab-kanji-eng.json");
+        hiragana = loadFile.loadFileJSON("./lists/" + selection + "-vocab-kanji-hiragana.json");
         levelSelected = true;
     });
     //Add event listener to time select dropdown box
@@ -173,24 +174,4 @@ function showResults(kanjiList, hiraganaList) {
         resultSectionHTML += "<div class=\"card card-body bg-secondary text-white my-2\"><p>" + kanjiList[f].Front + "</p></div>";
     });
     resultSection.innerHTML = resultSectionHTML;
-}
-//Load file (txt)
-function loadFileTXT(filepath) {
-    var req = new XMLHttpRequest();
-    req.open("GET", filepath, false);
-    req.send();
-    if (req.status == 200)
-        return req.responseText;
-}
-//Load file (json)
-function loadFileJSON(filepath) {
-    var result = [];
-    fetch(filepath).then(function (response) { return response.json(); }).then(function (json) {
-        for (var _i = 0, json_1 = json; _i < json_1.length; _i++) {
-            var e = json_1[_i];
-            result.push(e);
-        }
-    });
-    console.log("Loaded file " + filepath);
-    return result;
 }

@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var correctWords = [], incorrectWords = [];
 export function addWord(correct, index) {
     if (correct)
