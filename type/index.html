@@ -40,11 +40,13 @@
                                 <div class="form-group form-group-lg">
                                     <select class="form-control" id="time-selection">
                                         <option selected>Timeframe</option>
-                                        <option value="60000">1:00</option>
-                                        <option value="120000">2:00</option>
-                                        <option value="180000">3:00</option>
-                                        <option value="240000">4:00</option>
-                                        <option value="300000">5:00</option>
+                                        <option value="10000">00:10</option>    <!-- Debug only -->
+                                        <option value="30000">00:30</option>
+                                        <option value="60000">01:00</option>
+                                        <option value="120000">02:00</option>
+                                        <option value="180000">03:00</option>
+                                        <option value="240000">04:00</option>
+                                        <option value="300000">05:00</option>
                                     </select>
                                 </div>
                             </form>
@@ -63,27 +65,32 @@
                     <!-- Time & Score -->
                     <div class="row mt-5">
                         <div class="col-md-6">
-                            <h4>Time Remaining
-                                <br>
-                                <span id="time">Not Selected</span>
-                            </h3>
+                            <h3>Time Remaining</h3>
+                            <br>
+                            <h4><span id="time">Not Selected</span></h4>  
                         </div>
 
                         <div class="col-md-6">
-                            <h4>Words Typed
-                                <br> 
-                                <span id="score">0</span>
-                            </h3>
+                            <h3>Words Typed Correct</h3>
+                            <br> 
+                            <h4><span id="score">0</span></h4>
                         </div>
                     </div>
 
                     <!-- Instructions -->
-                    <div class="row mt-5">
+                    <div class="row mt-5 remove-when-finished">
                         <div class="col-md-12">
                             <div class="card card-body bg-secondary text-white">
                                 <h5>Instructions</h5>
                                 <p>Select your desired JLPT level and timeframe using the dropdown boxes at the top of the page. Type as many words as you can within the specified timeframe. Words will appear randomly. The timer will start once you click into the text box.</p>
                             </div>
+                        </div>
+                    </div>
+
+                    <!-- Results -->
+                    <div class="row mt-5">
+                        <div class="col-md-12" id="results-section">
+                            <!-- Contents will be added in JS after finishing game -->
                         </div>
                     </div>
                 </div>
