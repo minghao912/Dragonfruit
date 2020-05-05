@@ -1,4 +1,4 @@
-import * as wordDef from './wordDef.js';
+import * as wordDef from '../wordDef.js';
 
 window.addEventListener('load', init);
 
