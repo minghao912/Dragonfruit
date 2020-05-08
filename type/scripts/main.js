@@ -44,6 +44,7 @@ define(["require", "exports", "./wordDef", "./loadFile"], function (require, exp
             words = loadFile.loadFileJSON("./lists/" + selection + "-vocab-kanji-eng.json");
             hiragana = loadFile.loadFileJSON("./lists/" + selection + "-vocab-kanji-hiragana.json");
             levelSelected = true;
+            modify(words);
         });
         //Add event listener to time select dropdown box
         timeSelection.addEventListener('change', function (e) {
@@ -54,6 +55,11 @@ define(["require", "exports", "./wordDef", "./loadFile"], function (require, exp
         });
         setInterval(checkStartReq, 100); //Check requirements for game start
         setInterval(checkStatus, 50); //Check game status
+    }
+    function modify(eng) {
+        eng.forEach(function (e) {
+            console.log(e);
+        });
     }
     function checkStartReq() {
         if (!gameStarted && levelSelected && timeSelected) {
