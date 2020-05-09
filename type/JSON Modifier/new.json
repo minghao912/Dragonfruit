@@ -1,0 +1,4426 @@
+[
+    {
+        "Front": "あ",
+        "Back": "Ah",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "ああ",
+        "Back": "like that",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "あいさつ・する",
+        "Back": "to greet",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "間",
+        "Back": "a space",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 0
+    },
+    {
+        "Front": "合う",
+        "Back": "to match",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 1
+    },
+    {
+        "Front": "あかちゃん",
+        "Back": "infant",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "上る",
+        "Back": "to rise",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 2
+    },
+    {
+        "Front": "赤ん坊",
+        "Back": "baby",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 3
+    },
+    {
+        "Front": "空く",
+        "Back": "to open, to become empty",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 4
+    },
+    {
+        "Front": "アクセサリー",
+        "Back": "accessory",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "あげる",
+        "Back": "to give",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "浅い",
+        "Back": "shallow,superficial",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 5
+    },
+    {
+        "Front": "味",
+        "Back": "flavour",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 6
+    },
+    {
+        "Front": "アジア",
+        "Back": "Asia",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "明日",
+        "Back": "tomorrow",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 7
+    },
+    {
+        "Front": "遊び",
+        "Back": "play",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 8
+    },
+    {
+        "Front": "集る",
+        "Back": "to gather",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 9
+    },
+    {
+        "Front": "集める",
+        "Back": "to collect something",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 10
+    },
+    {
+        "Front": "アナウンサー",
+        "Back": "announcer",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "アフリカ",
+        "Back": "Africa",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "アメリカ",
+        "Back": "America",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "謝る",
+        "Back": "to apologize",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 11
+    },
+    {
+        "Front": "アルコール",
+        "Back": "alcohol",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "アルバイト",
+        "Back": "part-time job",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "安心",
+        "Back": "relief",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 12
+    },
+    {
+        "Front": "安全",
+        "Back": "safety",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 13
+    },
+    {
+        "Front": "あんな",
+        "Back": "such",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "案内",
+        "Back": "to guide",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 14
+    },
+    {
+        "Front": "以下",
+        "Back": "less than",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 15
+    },
+    {
+        "Front": "以外",
+        "Back": "with the exception of",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 16
+    },
+    {
+        "Front": "医学",
+        "Back": "medical science",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 17
+    },
+    {
+        "Front": "生きる",
+        "Back": "to live",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 18
+    },
+    {
+        "Front": "意見",
+        "Back": "opinion",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 19
+    },
+    {
+        "Front": "石",
+        "Back": "stone",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 20
+    },
+    {
+        "Front": "いじめる",
+        "Back": "to tease",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "以上",
+        "Back": "more than,this is all",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 21
+    },
+    {
+        "Front": "急ぐ",
+        "Back": "to hurry",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 22
+    },
+    {
+        "Front": "致す",
+        "Back": "(humble) to do",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 23
+    },
+    {
+        "Front": "いただく",
+        "Back": "(humble) to receive",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "一度",
+        "Back": "once",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 24
+    },
+    {
+        "Front": "一生懸命",
+        "Back": "with utmost effort",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 25
+    },
+    {
+        "Front": "いっぱい",
+        "Back": "full",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "糸",
+        "Back": "thread",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 26
+    },
+    {
+        "Front": "以内",
+        "Back": "within",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 27
+    },
+    {
+        "Front": "田舎",
+        "Back": "countryside",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 28
+    },
+    {
+        "Front": "祈る",
+        "Back": "to pray",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 29
+    },
+    {
+        "Front": "いらっしゃる",
+        "Back": "(respectful) to be,to come or to go",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "植える",
+        "Back": "to plant,to grow",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 30
+    },
+    {
+        "Front": "うかがう",
+        "Back": "to visit",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "受付",
+        "Back": "receipt",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 31
+    },
+    {
+        "Front": "受ける",
+        "Back": "to take a lesson or test",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 32
+    },
+    {
+        "Front": "動く",
+        "Back": "to move",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 33
+    },
+    {
+        "Front": "うそ",
+        "Back": "a lie",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "うち",
+        "Back": "within",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "打つ",
+        "Back": "to hit",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 34
+    },
+    {
+        "Front": "美しい",
+        "Back": "beautiful",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 35
+    },
+    {
+        "Front": "写す",
+        "Back": "to copy or photograph",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 36
+    },
+    {
+        "Front": "移る",
+        "Back": "to move house or transfer",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 37
+    },
+    {
+        "Front": "腕",
+        "Back": "arm",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 38
+    },
+    {
+        "Front": "うまい",
+        "Back": "delicious",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "裏",
+        "Back": "reverse side",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 39
+    },
+    {
+        "Front": "売り場",
+        "Back": "place where things are sold",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 40
+    },
+    {
+        "Front": "うれしい",
+        "Back": "glad",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "うん",
+        "Back": "(informal) yes",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "運転",
+        "Back": "to drive",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 41
+    },
+    {
+        "Front": "運転手",
+        "Back": "driver",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 42
+    },
+    {
+        "Front": "運動",
+        "Back": "to exercise",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 43
+    },
+    {
+        "Front": "エスカレーター",
+        "Back": "escalator",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "枝",
+        "Back": "branch, twig",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 44
+    },
+    {
+        "Front": "選ぶ",
+        "Back": "to choose",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 45
+    },
+    {
+        "Front": "遠慮",
+        "Back": "to be reserved, to be restrained",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 46
+    },
+    {
+        "Front": "おいでになる",
+        "Back": "(respectful) to be",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "お祝い",
+        "Back": "congratulation",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 47
+    },
+    {
+        "Front": "オートバイ",
+        "Back": "motorcycle",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "おかげ",
+        "Back": "owing to",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "おかしい",
+        "Back": "strange or funny",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "億",
+        "Back": "one hundred million",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 48
+    },
+    {
+        "Front": "屋上",
+        "Back": "rooftop",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 49
+    },
+    {
+        "Front": "贈り物",
+        "Back": "gift",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 50
+    },
+    {
+        "Front": "送る",
+        "Back": "to send",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 51
+    },
+    {
+        "Front": "遅れる",
+        "Back": "to be late",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 52
+    },
+    {
+        "Front": "起す",
+        "Back": "to wake",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 53
+    },
+    {
+        "Front": "行う",
+        "Back": "to do",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 54
+    },
+    {
+        "Front": "怒る",
+        "Back": "to get angry,to be angry",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 55
+    },
+    {
+        "Front": "押し入れ",
+        "Back": "closet",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 56
+    },
+    {
+        "Front": "お嬢さん",
+        "Back": "young lady",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 57
+    },
+    {
+        "Front": "お宅",
+        "Back": "(polite) your house",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 58
+    },
+    {
+        "Front": "落る",
+        "Back": "to fall or drop",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 59
+    },
+    {
+        "Front": "おっしゃる",
+        "Back": "(respectful) to say",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "夫",
+        "Back": "husband",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 60
+    },
+    {
+        "Front": "おつり",
+        "Back": "change from purchase, balance",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "音",
+        "Back": "sound,note",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 61
+    },
+    {
+        "Front": "落す",
+        "Back": "to drop",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 62
+    },
+    {
+        "Front": "踊り",
+        "Back": "a dance",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 63
+    },
+    {
+        "Front": "踊る",
+        "Back": "to dance",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 64
+    },
+    {
+        "Front": "驚く",
+        "Back": "to be surprised",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 65
+    },
+    {
+        "Front": "お祭り",
+        "Back": "festival",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 66
+    },
+    {
+        "Front": "お見舞い",
+        "Back": "calling on someone who is ill,enquiry",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 67
+    },
+    {
+        "Front": "お土産",
+        "Back": "souvenir",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 68
+    },
+    {
+        "Front": "思い出す",
+        "Back": "to remember",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 69
+    },
+    {
+        "Front": "思う",
+        "Back": "to think,to feel",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 70
+    },
+    {
+        "Front": "おもちゃ",
+        "Back": "toy",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "表",
+        "Back": "the front",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 71
+    },
+    {
+        "Front": "親",
+        "Back": "parents",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 72
+    },
+    {
+        "Front": "下りる",
+        "Back": "to get off",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 73
+    },
+    {
+        "Front": "折る",
+        "Back": "to break or to fold",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 74
+    },
+    {
+        "Front": "お礼",
+        "Back": "expression of gratitude",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 75
+    },
+    {
+        "Front": "折れる",
+        "Back": "to break or be folded",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 76
+    },
+    {
+        "Front": "終わり",
+        "Back": "the end",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 77
+    },
+    {
+        "Front": "カーテン",
+        "Back": "curtain",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "海岸",
+        "Back": "coast",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 78
+    },
+    {
+        "Front": "会議",
+        "Back": "meeting",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 79
+    },
+    {
+        "Front": "会議室",
+        "Back": "meeting room",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 80
+    },
+    {
+        "Front": "会場",
+        "Back": "assembly hall or meeting place",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 81
+    },
+    {
+        "Front": "会話",
+        "Back": "conversation",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 82
+    },
+    {
+        "Front": "帰り",
+        "Back": "return",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 83
+    },
+    {
+        "Front": "変える",
+        "Back": "to change",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 84
+    },
+    {
+        "Front": "科学",
+        "Back": "science",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 85
+    },
+    {
+        "Front": "鏡",
+        "Back": "mirror",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 86
+    },
+    {
+        "Front": "掛ける",
+        "Back": "to hang something",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 87
+    },
+    {
+        "Front": "飾る",
+        "Back": "to decorate",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 88
+    },
+    {
+        "Front": "火事",
+        "Back": "fire",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 89
+    },
+    {
+        "Front": "ガス",
+        "Back": "petrol",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "ガソリン",
+        "Back": "petrol",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "ガソリンスタンド",
+        "Back": "petrol station",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "堅/硬/固い",
+        "Back": "hard",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 90
+    },
+    {
+        "Front": "形",
+        "Back": "shape",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 91
+    },
+    {
+        "Front": "片付ける",
+        "Back": "to tidy up",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 92
+    },
+    {
+        "Front": "課長",
+        "Back": "section manager",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 93
+    },
+    {
+        "Front": "勝つ",
+        "Back": "to win",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 94
+    },
+    {
+        "Front": "かっこう",
+        "Back": "appearance",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "家内",
+        "Back": "housewife",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 95
+    },
+    {
+        "Front": "悲しい",
+        "Back": "sad",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 96
+    },
+    {
+        "Front": "必ず",
+        "Back": "certainly,necessarily",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 97
+    },
+    {
+        "Front": "お・金持ち",
+        "Back": "rich man",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 98
+    },
+    {
+        "Front": "彼女",
+        "Back": "she,girlfriend",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 99
+    },
+    {
+        "Front": "壁",
+        "Back": "wall",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 100
+    },
+    {
+        "Front": "かまう",
+        "Back": "to mind",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "髪",
+        "Back": "hair",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 101
+    },
+    {
+        "Front": "噛む",
+        "Back": "to bite,to chew",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 102
+    },
+    {
+        "Front": "通う",
+        "Back": "to commute",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 103
+    },
+    {
+        "Front": "ガラス",
+        "Back": "a glass pane",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "彼",
+        "Back": "he,boyfriend",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 104
+    },
+    {
+        "Front": "彼ら",
+        "Back": "they",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 105
+    },
+    {
+        "Front": "乾く",
+        "Back": "to get dry",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 106
+    },
+    {
+        "Front": "代わり",
+        "Back": "substitute,alternate",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 107
+    },
+    {
+        "Front": "変わる",
+        "Back": "to change",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 108
+    },
+    {
+        "Front": "考える",
+        "Back": "to consider",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 109
+    },
+    {
+        "Front": "関係",
+        "Back": "relationship",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 110
+    },
+    {
+        "Front": "看護婦",
+        "Back": "female nurse",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 111
+    },
+    {
+        "Front": "簡単",
+        "Back": "simple",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 112
+    },
+    {
+        "Front": "気",
+        "Back": "spirit,mood",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 113
+    },
+    {
+        "Front": "機会",
+        "Back": "opportunity",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 114
+    },
+    {
+        "Front": "危険",
+        "Back": "danger",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 115
+    },
+    {
+        "Front": "聞こえる",
+        "Back": "to be heard",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 116
+    },
+    {
+        "Front": "汽車",
+        "Back": "steam train",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 117
+    },
+    {
+        "Front": "技術",
+        "Back": "art,technology,skill",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 118
+    },
+    {
+        "Front": "季節",
+        "Back": "season",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 119
+    },
+    {
+        "Front": "規則",
+        "Back": "regulations",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 120
+    },
+    {
+        "Front": "きっと",
+        "Back": "surely",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "絹",
+        "Back": "silk",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 121
+    },
+    {
+        "Front": "厳しい",
+        "Back": "strict",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 122
+    },
+    {
+        "Front": "気分",
+        "Back": "mood",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 123
+    },
+    {
+        "Front": "決る",
+        "Back": "to be decided",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 124
+    },
+    {
+        "Front": "君",
+        "Back": "(informal) You (used by men towards women)",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 125
+    },
+    {
+        "Front": "決める",
+        "Back": "to decide",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 126
+    },
+    {
+        "Front": "気持ち",
+        "Back": "feeling,mood",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 127
+    },
+    {
+        "Front": "着物",
+        "Back": "kimono",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 128
+    },
+    {
+        "Front": "客",
+        "Back": "guest,customer",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 129
+    },
+    {
+        "Front": "急",
+        "Back": "urgent, steep",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 130
+    },
+    {
+        "Front": "急行",
+        "Back": "speedy, express",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 131
+    },
+    {
+        "Front": "教育",
+        "Back": "education",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 132
+    },
+    {
+        "Front": "教会",
+        "Back": "church",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 133
+    },
+    {
+        "Front": "競争",
+        "Back": "competition",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 134
+    },
+    {
+        "Front": "興味",
+        "Back": "an interest",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 135
+    },
+    {
+        "Front": "近所",
+        "Back": "neighbourhood",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 136
+    },
+    {
+        "Front": "具合",
+        "Back": "condition,health",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 137
+    },
+    {
+        "Front": "空気",
+        "Back": "air,atmosphere",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 138
+    },
+    {
+        "Front": "空港",
+        "Back": "airport",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 139
+    },
+    {
+        "Front": "草",
+        "Back": "grass",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 140
+    },
+    {
+        "Front": "くださる",
+        "Back": "(respectful) to give",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "首",
+        "Back": "neck",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 141
+    },
+    {
+        "Front": "雲",
+        "Back": "cloud",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 142
+    },
+    {
+        "Front": "比べる",
+        "Back": "to compare",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 143
+    },
+    {
+        "Front": "くれる",
+        "Back": "to give",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "暮れる",
+        "Back": "to get dark,to come to an end",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 144
+    },
+    {
+        "Front": "毛",
+        "Back": "hair or fur",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 145
+    },
+    {
+        "Front": "計画",
+        "Back": "to plan",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 146
+    },
+    {
+        "Front": "経験",
+        "Back": "to experience",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 147
+    },
+    {
+        "Front": "経済",
+        "Back": "finance,economy",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 148
+    },
+    {
+        "Front": "警察",
+        "Back": "police",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 149
+    },
+    {
+        "Front": "ケーキ",
+        "Back": "cake",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "けが・する",
+        "Back": "to injure",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "景色",
+        "Back": "scene,landscape",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 150
+    },
+    {
+        "Front": "消しゴム",
+        "Back": "eraser",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 151
+    },
+    {
+        "Front": "下宿",
+        "Back": "lodging",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 152
+    },
+    {
+        "Front": "決して",
+        "Back": "never",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 153
+    },
+    {
+        "Front": "けれど/けれども",
+        "Back": "however",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "原因",
+        "Back": "cause,source",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 154
+    },
+    {
+        "Front": "けんか・する",
+        "Back": "to quarrel",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "研究",
+        "Back": "research",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 155
+    },
+    {
+        "Front": "研究室",
+        "Back": "study room,laboratory",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 156
+    },
+    {
+        "Front": "見物",
+        "Back": "sightseeing",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 157
+    },
+    {
+        "Front": "子",
+        "Back": "child",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 158
+    },
+    {
+        "Front": "こう",
+        "Back": "this way",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "郊外",
+        "Back": "outskirts",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 159
+    },
+    {
+        "Front": "講義",
+        "Back": "lecture",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 160
+    },
+    {
+        "Front": "工業",
+        "Back": "the manufacturing industry",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 161
+    },
+    {
+        "Front": "高校",
+        "Back": "high school",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 162
+    },
+    {
+        "Front": "高校生",
+        "Back": "high school student",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 163
+    },
+    {
+        "Front": "工場",
+        "Back": "factory",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 164
+    },
+    {
+        "Front": "校長",
+        "Back": "headmaster",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 165
+    },
+    {
+        "Front": "交通",
+        "Back": "traffic,transportation",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 166
+    },
+    {
+        "Front": "講堂",
+        "Back": "auditorium",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 167
+    },
+    {
+        "Front": "高等学校",
+        "Back": "high school",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 168
+    },
+    {
+        "Front": "公務員",
+        "Back": "government worker",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 169
+    },
+    {
+        "Front": "国際",
+        "Back": "international",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 170
+    },
+    {
+        "Front": "心",
+        "Back": "core,heart",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 171
+    },
+    {
+        "Front": "御主人",
+        "Back": "(honorable) your husband",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 172
+    },
+    {
+        "Front": "故障",
+        "Back": "to break-down",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 173
+    },
+    {
+        "Front": "ご存じ",
+        "Back": "knowing,acquaintance",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 174
+    },
+    {
+        "Front": "答",
+        "Back": "response",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 175
+    },
+    {
+        "Front": "ごちそう",
+        "Back": "a feast",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "こと",
+        "Back": "thing,matter",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "小鳥",
+        "Back": "small bird",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 176
+    },
+    {
+        "Front": "このあいだ",
+        "Back": "the other day,recently",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "このごろ",
+        "Back": "these days,nowadays",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "細かい",
+        "Back": "small, fine",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 177
+    },
+    {
+        "Front": "ごみ",
+        "Back": "rubbish",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "込む",
+        "Back": "to be crowded",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 178
+    },
+    {
+        "Front": "米",
+        "Back": "uncooked rice",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 179
+    },
+    {
+        "Front": "ごらんになる",
+        "Back": "(respectful) to see",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "これから",
+        "Back": "after this",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "怖い",
+        "Back": "frightening",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 180
+    },
+    {
+        "Front": "壊す",
+        "Back": "to break",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 181
+    },
+    {
+        "Front": "壊れる",
+        "Back": "to be broken",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 182
+    },
+    {
+        "Front": "コンサート",
+        "Back": "concert",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "今度",
+        "Back": "now,next time",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 183
+    },
+    {
+        "Front": "コンピュータ/コンピューター",
+        "Back": "computer",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "今夜",
+        "Back": "tonight",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 184
+    },
+    {
+        "Front": "最近",
+        "Back": "latest,nowadays",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 185
+    },
+    {
+        "Front": "最後",
+        "Back": "last,end",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 186
+    },
+    {
+        "Front": "最初",
+        "Back": "beginning,first",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 187
+    },
+    {
+        "Front": "坂",
+        "Back": "slope,hill",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 188
+    },
+    {
+        "Front": "探す",
+        "Back": "to look for",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 189
+    },
+    {
+        "Front": "下る",
+        "Back": "to get down,to descend",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 190
+    },
+    {
+        "Front": "盛ん",
+        "Back": "popularity,prosperous",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 191
+    },
+    {
+        "Front": "下げる",
+        "Back": "to hang,to lower,to move back",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 192
+    },
+    {
+        "Front": "差し上げる",
+        "Back": "(polite) to give",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 193
+    },
+    {
+        "Front": "さっき",
+        "Back": "some time ago",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "寂しい",
+        "Back": "lonely",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 194
+    },
+    {
+        "Front": "さ来月",
+        "Back": "the month after next",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 195
+    },
+    {
+        "Front": "さ来週",
+        "Back": "the week after next",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 196
+    },
+    {
+        "Front": "サラダ",
+        "Back": "salad",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "騒ぐ",
+        "Back": "to make noise,to be excited",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 197
+    },
+    {
+        "Front": "触る",
+        "Back": "to touch",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 198
+    },
+    {
+        "Front": "産業",
+        "Back": "industry",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 199
+    },
+    {
+        "Front": "サンダル",
+        "Back": "sandal",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "サンドイッチ",
+        "Back": "sandwich",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "残念",
+        "Back": "disappointment",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 200
+    },
+    {
+        "Front": "市",
+        "Back": "city",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 201
+    },
+    {
+        "Front": "字",
+        "Back": "character",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 202
+    },
+    {
+        "Front": "試合",
+        "Back": "match,game",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 203
+    },
+    {
+        "Front": "仕方",
+        "Back": "method",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 204
+    },
+    {
+        "Front": "しかる",
+        "Back": "a particular",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "試験",
+        "Back": "examination",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 205
+    },
+    {
+        "Front": "事故",
+        "Back": "accident",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 206
+    },
+    {
+        "Front": "地震",
+        "Back": "earthquake",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 207
+    },
+    {
+        "Front": "時代",
+        "Back": "era",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 208
+    },
+    {
+        "Front": "下着",
+        "Back": "underwear",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 209
+    },
+    {
+        "Front": "支度",
+        "Back": "to prepare",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 210
+    },
+    {
+        "Front": "しっかり",
+        "Back": "firmly,steadily",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "失敗",
+        "Back": "failure,mistake",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 211
+    },
+    {
+        "Front": "辞典",
+        "Back": "dictionary",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 212
+    },
+    {
+        "Front": "品物",
+        "Back": "goods",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 213
+    },
+    {
+        "Front": "しばらく",
+        "Back": "little while",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "島",
+        "Back": "island",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 214
+    },
+    {
+        "Front": "市民",
+        "Back": "citizen",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 215
+    },
+    {
+        "Front": "事務所",
+        "Back": "office",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 216
+    },
+    {
+        "Front": "社会",
+        "Back": "society,public",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 217
+    },
+    {
+        "Front": "社長",
+        "Back": "company president",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 218
+    },
+    {
+        "Front": "じゃま",
+        "Back": "hindrance,intrusion",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "ジャム",
+        "Back": "jam",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "自由",
+        "Back": "freedom",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 219
+    },
+    {
+        "Front": "習慣",
+        "Back": "custom,manners",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 220
+    },
+    {
+        "Front": "住所",
+        "Back": "an address,a residence",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 221
+    },
+    {
+        "Front": "柔道",
+        "Back": "judo",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 222
+    },
+    {
+        "Front": "十分",
+        "Back": "enough",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 223
+    },
+    {
+        "Front": "出席",
+        "Back": "to attend",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 224
+    },
+    {
+        "Front": "出発",
+        "Back": "to depart",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 225
+    },
+    {
+        "Front": "趣味",
+        "Back": "hobby",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 226
+    },
+    {
+        "Front": "準備",
+        "Back": "to prepare",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 227
+    },
+    {
+        "Front": "紹介",
+        "Back": "introduction",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 228
+    },
+    {
+        "Front": "小学校",
+        "Back": "elementary school",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 229
+    },
+    {
+        "Front": "小説",
+        "Back": "novel",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 230
+    },
+    {
+        "Front": "招待",
+        "Back": "to invite",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 231
+    },
+    {
+        "Front": "承知",
+        "Back": "to consent",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 232
+    },
+    {
+        "Front": "将来",
+        "Back": "future,prospects",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 233
+    },
+    {
+        "Front": "食事",
+        "Back": "to have a meal",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 234
+    },
+    {
+        "Front": "食料品",
+        "Back": "groceries",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 235
+    },
+    {
+        "Front": "女性",
+        "Back": "woman",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 236
+    },
+    {
+        "Front": "知らせる",
+        "Back": "to notify",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 237
+    },
+    {
+        "Front": "調べる",
+        "Back": "to investigate",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 238
+    },
+    {
+        "Front": "人口",
+        "Back": "population",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 239
+    },
+    {
+        "Front": "神社",
+        "Back": "Shinto shrine",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 240
+    },
+    {
+        "Front": "親切",
+        "Back": "kindness",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 241
+    },
+    {
+        "Front": "心配",
+        "Back": "to worry",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 242
+    },
+    {
+        "Front": "新聞社",
+        "Back": "newspaper company",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 243
+    },
+    {
+        "Front": "水泳",
+        "Back": "swimming",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 244
+    },
+    {
+        "Front": "水道",
+        "Back": "water supply",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 245
+    },
+    {
+        "Front": "ずいぶん",
+        "Back": "extremely",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "数学",
+        "Back": "mathematics,arithmetic",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 246
+    },
+    {
+        "Front": "スーツ",
+        "Back": "suit",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "スーツケース",
+        "Back": "suitcase",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "過ぎる",
+        "Back": "to exceed",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 247
+    },
+    {
+        "Front": "すく",
+        "Back": "to become empty",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "スクリーン",
+        "Back": "screen",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "凄い",
+        "Back": "terrific",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 248
+    },
+    {
+        "Front": "進む",
+        "Back": "to make progress",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 249
+    },
+    {
+        "Front": "すっかり",
+        "Back": "completely",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "すっと",
+        "Back": "straight,all of a sudden",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "ステーキ",
+        "Back": "steak",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "捨てる",
+        "Back": "to throw away",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 250
+    },
+    {
+        "Front": "ステレオ",
+        "Back": "stereo",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "砂",
+        "Back": "sand",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 251
+    },
+    {
+        "Front": "すばらしい",
+        "Back": "wonderful",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "滑る",
+        "Back": "to slide,to slip",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 252
+    },
+    {
+        "Front": "隅",
+        "Back": "corner,nook",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 253
+    },
+    {
+        "Front": "済む",
+        "Back": "to finish",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 254
+    },
+    {
+        "Front": "すり",
+        "Back": "pickpocket",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "すると",
+        "Back": "then",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "生活",
+        "Back": "to live",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 255
+    },
+    {
+        "Front": "生産",
+        "Back": "to produce",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 256
+    },
+    {
+        "Front": "政治",
+        "Back": "politics,government",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 257
+    },
+    {
+        "Front": "西洋",
+        "Back": "western countries",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 258
+    },
+    {
+        "Front": "世界",
+        "Back": "the world",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 259
+    },
+    {
+        "Front": "席",
+        "Back": "seat",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 260
+    },
+    {
+        "Front": "説明",
+        "Back": "explanation",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 261
+    },
+    {
+        "Front": "背中",
+        "Back": "back of the body",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 262
+    },
+    {
+        "Front": "世話",
+        "Back": "to look after",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 263
+    },
+    {
+        "Front": "ぜひ",
+        "Back": "without fail",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "線",
+        "Back": "line",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 264
+    },
+    {
+        "Front": "ぜんぜん",
+        "Back": "not entirely (used in a negative sentence)",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "戦争",
+        "Back": "war",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 265
+    },
+    {
+        "Front": "先輩",
+        "Back": "senior",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 266
+    },
+    {
+        "Front": "そう",
+        "Back": "really",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "相談",
+        "Back": "to discuss",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 267
+    },
+    {
+        "Front": "育てる",
+        "Back": "to rear,to bring up",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 268
+    },
+    {
+        "Front": "卒業",
+        "Back": "graduation",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 269
+    },
+    {
+        "Front": "祖父",
+        "Back": "grandfather",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 270
+    },
+    {
+        "Front": "祖母",
+        "Back": "grandmother",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 271
+    },
+    {
+        "Front": "ソフト",
+        "Back": "soft",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "それで",
+        "Back": "because of that",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "それに",
+        "Back": "moreover",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "それほど",
+        "Back": "to that extent",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "そろそろ",
+        "Back": "gradually,soon",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "そんな",
+        "Back": "that sort of",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "そんなに",
+        "Back": "so much,like that",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "退院",
+        "Back": "to leave hospital",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 272
+    },
+    {
+        "Front": "大学生",
+        "Back": "university student",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 273
+    },
+    {
+        "Front": "大事",
+        "Back": "important,valuable,serious matter",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 274
+    },
+    {
+        "Front": "大体",
+        "Back": "generally",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 275
+    },
+    {
+        "Front": "たいてい",
+        "Back": "usually",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "タイプ",
+        "Back": "type,style",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "大分",
+        "Back": "greatly",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 276
+    },
+    {
+        "Front": "台風",
+        "Back": "typhoon",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 277
+    },
+    {
+        "Front": "倒れる",
+        "Back": "to break down",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 278
+    },
+    {
+        "Front": "だから",
+        "Back": "so,therefore",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "確か",
+        "Back": "definite",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 279
+    },
+    {
+        "Front": "足す",
+        "Back": "to add a number",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 280
+    },
+    {
+        "Front": "訪ねる",
+        "Back": "to visit",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 281
+    },
+    {
+        "Front": "尋ねる",
+        "Back": "to ask",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 282
+    },
+    {
+        "Front": "正しい",
+        "Back": "correct",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 283
+    },
+    {
+        "Front": "畳",
+        "Back": "Japanese straw mat",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 284
+    },
+    {
+        "Front": "立てる",
+        "Back": "to stand something up",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 285
+    },
+    {
+        "Front": "建てる",
+        "Back": "to build",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 286
+    },
+    {
+        "Front": "例えば",
+        "Back": "for example",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 287
+    },
+    {
+        "Front": "棚",
+        "Back": "shelves",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 288
+    },
+    {
+        "Front": "楽しみ",
+        "Back": "joy",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 289
+    },
+    {
+        "Front": "楽む",
+        "Back": "to enjoy oneself",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 290
+    },
+    {
+        "Front": "たまに",
+        "Back": "occasionally",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "為",
+        "Back": "in order to",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 291
+    },
+    {
+        "Front": "だめ",
+        "Back": "no good",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "足りる",
+        "Back": "to be enough",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 292
+    },
+    {
+        "Front": "男性",
+        "Back": "male",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 293
+    },
+    {
+        "Front": "暖房",
+        "Back": "heating",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 294
+    },
+    {
+        "Front": "血",
+        "Back": "blood",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 295
+    },
+    {
+        "Front": "チェック・する",
+        "Back": "to check",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "力",
+        "Back": "strength,power",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 296
+    },
+    {
+        "Front": "ちっとも",
+        "Back": "not at all (used with a negative verb)",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "ちゃん",
+        "Back": "suffix for familiar female person",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "注意",
+        "Back": "caution",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 297
+    },
+    {
+        "Front": "中学校",
+        "Back": "junior high school,middle school",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 298
+    },
+    {
+        "Front": "注射",
+        "Back": "injection",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 299
+    },
+    {
+        "Front": "駐車場",
+        "Back": "parking lot",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 300
+    },
+    {
+        "Front": "地理",
+        "Back": "geography",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 301
+    },
+    {
+        "Front": "捕まえる",
+        "Back": "to seize",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 302
+    },
+    {
+        "Front": "つき",
+        "Back": "moon",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "付く",
+        "Back": "to be attached",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 303
+    },
+    {
+        "Front": "漬ける",
+        "Back": "to soak,to pickle",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 304
+    },
+    {
+        "Front": "都合",
+        "Back": "circumstances,convenience",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 305
+    },
+    {
+        "Front": "伝える",
+        "Back": "to report",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 306
+    },
+    {
+        "Front": "続く",
+        "Back": "to be continued",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 307
+    },
+    {
+        "Front": "続ける",
+        "Back": "to continue",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 308
+    },
+    {
+        "Front": "包む",
+        "Back": "to wrap",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 309
+    },
+    {
+        "Front": "妻",
+        "Back": "(humble) wife",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 310
+    },
+    {
+        "Front": "つもり",
+        "Back": "intention",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "釣る",
+        "Back": "to fish",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 311
+    },
+    {
+        "Front": "連れる",
+        "Back": "to lead",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 312
+    },
+    {
+        "Front": "丁寧",
+        "Back": "polite",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 313
+    },
+    {
+        "Front": "テキスト",
+        "Back": "text,text book",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "適当",
+        "Back": "suitability",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 314
+    },
+    {
+        "Front": "できるだけ",
+        "Back": "as much as possible",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "手伝う",
+        "Back": "to assist",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 315
+    },
+    {
+        "Front": "テニス",
+        "Back": "tennis",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "手袋",
+        "Back": "glove",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 316
+    },
+    {
+        "Front": "寺",
+        "Back": "temple",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 317
+    },
+    {
+        "Front": "点",
+        "Back": "point,dot",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 318
+    },
+    {
+        "Front": "店員",
+        "Back": "shop assistant",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 319
+    },
+    {
+        "Front": "天気予報",
+        "Back": "weather forecast",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 320
+    },
+    {
+        "Front": "電灯",
+        "Back": "electric light",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 321
+    },
+    {
+        "Front": "電報",
+        "Back": "telegram",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 322
+    },
+    {
+        "Front": "展覧会",
+        "Back": "exhibition",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 323
+    },
+    {
+        "Front": "都",
+        "Back": "metropolitan",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 324
+    },
+    {
+        "Front": "道具",
+        "Back": "tool,means",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 325
+    },
+    {
+        "Front": "とうとう",
+        "Back": "finally, after all",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "動物園",
+        "Back": "zoo",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 326
+    },
+    {
+        "Front": "遠く",
+        "Back": "distant",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 327
+    },
+    {
+        "Front": "通る",
+        "Back": "to go through",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 328
+    },
+    {
+        "Front": "特に",
+        "Back": "particularly,especially",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 329
+    },
+    {
+        "Front": "特別",
+        "Back": "special",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 330
+    },
+    {
+        "Front": "とこや",
+        "Back": "barber",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "途中",
+        "Back": "on the way",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 331
+    },
+    {
+        "Front": "特急",
+        "Back": "limited express train (faster than an express train)",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 332
+    },
+    {
+        "Front": "届ける",
+        "Back": "to reach",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 333
+    },
+    {
+        "Front": "泊まる",
+        "Back": "to lodge at",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 334
+    },
+    {
+        "Front": "止める",
+        "Back": "to stop something",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 335
+    },
+    {
+        "Front": "取り替える",
+        "Back": "to exchange",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 336
+    },
+    {
+        "Front": "泥棒",
+        "Back": "thief",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 337
+    },
+    {
+        "Front": "どんどん",
+        "Back": "more and more",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "直す",
+        "Back": "to fix,to repair",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 338
+    },
+    {
+        "Front": "直る",
+        "Back": "to be fixed,to be repaired",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 339
+    },
+    {
+        "Front": "治る",
+        "Back": "to be cured,to heal",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 340
+    },
+    {
+        "Front": "中々",
+        "Back": "considerably",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 341
+    },
+    {
+        "Front": "泣く",
+        "Back": "to weep",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 342
+    },
+    {
+        "Front": "無くなる",
+        "Back": "to disappear,to get lost",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 343
+    },
+    {
+        "Front": "亡くなる",
+        "Back": "to die",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 345
+    },
+    {
+        "Front": "投げる",
+        "Back": "to throw or cast away",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 344
+    },
+    {
+        "Front": "なさる",
+        "Back": "(respectful) to do",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "鳴る",
+        "Back": "to sound",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 346
+    },
+    {
+        "Front": "なるべく",
+        "Back": "as much as possible",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "なるほど",
+        "Back": "now I understand",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "慣れる",
+        "Back": "to grow accustomed to",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 347
+    },
+    {
+        "Front": "におい",
+        "Back": "a smell",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "苦い",
+        "Back": "bitter",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 348
+    },
+    {
+        "Front": "二階建て",
+        "Back": "two storied",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 349
+    },
+    {
+        "Front": "逃げる",
+        "Back": "to escape",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 350
+    },
+    {
+        "Front": "日記",
+        "Back": "journal",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 351
+    },
+    {
+        "Front": "入院",
+        "Back": "to hospitalise",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 352
+    },
+    {
+        "Front": "入学",
+        "Back": "to enter school or university",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 353
+    },
+    {
+        "Front": "似る",
+        "Back": "to be similar",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 354
+    },
+    {
+        "Front": "人形",
+        "Back": "doll, figure",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 356
+    },
+    {
+        "Front": "盗む",
+        "Back": "to steal",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 355
+    },
+    {
+        "Front": "塗る",
+        "Back": "to paint,to plaster",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 357
+    },
+    {
+        "Front": "ぬれる",
+        "Back": "to get wet",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "ねだん",
+        "Back": "price",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "熱",
+        "Back": "fever",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 358
+    },
+    {
+        "Front": "ねっしん",
+        "Back": "enthusiasm",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "寝坊",
+        "Back": "sleeping in late",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 359
+    },
+    {
+        "Front": "眠い",
+        "Back": "sleepy",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 360
+    },
+    {
+        "Front": "眠る",
+        "Back": "to sleep",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 361
+    },
+    {
+        "Front": "残る",
+        "Back": "to remain",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 362
+    },
+    {
+        "Front": "のど",
+        "Back": "throat",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "乗り換える",
+        "Back": "to change between buses or trains",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 363
+    },
+    {
+        "Front": "乗り物",
+        "Back": "vehicle",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 364
+    },
+    {
+        "Front": "葉",
+        "Back": "leaf",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 365
+    },
+    {
+        "Front": "場合",
+        "Back": "situation",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 366
+    },
+    {
+        "Front": "パート",
+        "Back": "part time",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "倍",
+        "Back": "double",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 367
+    },
+    {
+        "Front": "拝見",
+        "Back": "(humble) to look at",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 368
+    },
+    {
+        "Front": "歯医者",
+        "Back": "dentist",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 369
+    },
+    {
+        "Front": "運ぶ",
+        "Back": "to transport",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 370
+    },
+    {
+        "Front": "始める",
+        "Back": "to begin",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 371
+    },
+    {
+        "Front": "場所",
+        "Back": "location",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 372
+    },
+    {
+        "Front": "はず",
+        "Back": "it should be so",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "恥ずかしい",
+        "Back": "embarrassed",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 373
+    },
+    {
+        "Front": "パソコン",
+        "Back": "personal computer",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "発音",
+        "Back": "pronunciation",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 374
+    },
+    {
+        "Front": "はっきり",
+        "Back": "clearly",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "花見",
+        "Back": "cherry-blossom viewing",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 375
+    },
+    {
+        "Front": "林",
+        "Back": "woods,forester",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 376
+    },
+    {
+        "Front": "払う",
+        "Back": "to pay",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 377
+    },
+    {
+        "Front": "番組",
+        "Back": "television or radio program",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 378
+    },
+    {
+        "Front": "反対",
+        "Back": "opposition",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 379
+    },
+    {
+        "Front": "ハンドバッグ",
+        "Back": "handbag　",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "日",
+        "Back": "day, sun",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 380
+    },
+    {
+        "Front": "火",
+        "Back": "fire",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 381
+    },
+    {
+        "Front": "ピアノ",
+        "Back": "piano",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "冷える",
+        "Back": "to grow cold",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 382
+    },
+    {
+        "Front": "光",
+        "Back": "light",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 383
+    },
+    {
+        "Front": "光る",
+        "Back": "to shine,to glitter",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 384
+    },
+    {
+        "Front": "引き出し",
+        "Back": "drawer,drawing out",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 385
+    },
+    {
+        "Front": "引き出す",
+        "Back": "to withdraw",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 386
+    },
+    {
+        "Front": "ひげ",
+        "Back": "beard",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "飛行場",
+        "Back": "airport",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 387
+    },
+    {
+        "Front": "久しぶり",
+        "Back": "after a long time",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 388
+    },
+    {
+        "Front": "美術館",
+        "Back": "art gallery",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 389
+    },
+    {
+        "Front": "非常に",
+        "Back": "extremely",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 390
+    },
+    {
+        "Front": "びっくり・する",
+        "Back": "to be surprised",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "引っ越す",
+        "Back": "to move house",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 391
+    },
+    {
+        "Front": "必要",
+        "Back": "necessary",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 392
+    },
+    {
+        "Front": "ひどい",
+        "Back": "awful",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "開く",
+        "Back": "to open an event",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 393
+    },
+    {
+        "Front": "ビル",
+        "Back": "building or bill",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "昼間",
+        "Back": "daytime,during the day",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 394
+    },
+    {
+        "Front": "昼休み",
+        "Back": "noon break",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 395
+    },
+    {
+        "Front": "拾う",
+        "Back": "to pick up,to gather",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 396
+    },
+    {
+        "Front": "ファックス",
+        "Back": "fax",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "増える",
+        "Back": "to increase",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 397
+    },
+    {
+        "Front": "深い",
+        "Back": "deep",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 398
+    },
+    {
+        "Front": "複雑",
+        "Back": "complexity,complication",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 399
+    },
+    {
+        "Front": "復習",
+        "Back": "revision",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 400
+    },
+    {
+        "Front": "部長",
+        "Back": "head of a section",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 401
+    },
+    {
+        "Front": "普通",
+        "Back": "usually, or a train that stops at every station",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 402
+    },
+    {
+        "Front": "ぶどう",
+        "Back": "grapes",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "太る",
+        "Back": "to become fat",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 403
+    },
+    {
+        "Front": "布団",
+        "Back": "Japanese bedding, futon",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 404
+    },
+    {
+        "Front": "舟",
+        "Back": "ship",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 405
+    },
+    {
+        "Front": "不便",
+        "Back": "inconvenience",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 406
+    },
+    {
+        "Front": "踏む",
+        "Back": "to step on",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 407
+    },
+    {
+        "Front": "降り出す",
+        "Back": "to start to rain",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 408
+    },
+    {
+        "Front": "プレゼント",
+        "Back": "present",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "文化",
+        "Back": "culture",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 409
+    },
+    {
+        "Front": "文学",
+        "Back": "literature",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 410
+    },
+    {
+        "Front": "文法",
+        "Back": "grammar",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 411
+    },
+    {
+        "Front": "別",
+        "Back": "different",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 412
+    },
+    {
+        "Front": "ベル",
+        "Back": "bell",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "変",
+        "Back": "strange",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 413
+    },
+    {
+        "Front": "返事",
+        "Back": "reply",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 414
+    },
+    {
+        "Front": "貿易",
+        "Back": "trade",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 415
+    },
+    {
+        "Front": "放送",
+        "Back": "to broadcast",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 416
+    },
+    {
+        "Front": "法律",
+        "Back": "law",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 417
+    },
+    {
+        "Front": "僕",
+        "Back": "I (used by males)",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 418
+    },
+    {
+        "Front": "星",
+        "Back": "star",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 419
+    },
+    {
+        "Front": "ほど",
+        "Back": "extent",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "ほとんど",
+        "Back": "mostly",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "ほめる",
+        "Back": "to praise",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "翻訳",
+        "Back": "translation",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 420
+    },
+    {
+        "Front": "参る",
+        "Back": "(humble) to go,to come",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 421
+    },
+    {
+        "Front": "負ける",
+        "Back": "to lose",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 422
+    },
+    {
+        "Front": "まじめ",
+        "Back": "serious",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "まず",
+        "Back": "first of all",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "または",
+        "Back": "or,otherwise",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "間違える",
+        "Back": "to make a mistake",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 423
+    },
+    {
+        "Front": "間に合う",
+        "Back": "to be in time for",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 424
+    },
+    {
+        "Front": "周り",
+        "Back": "surroundings",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 425
+    },
+    {
+        "Front": "回る",
+        "Back": "to go around",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 426
+    },
+    {
+        "Front": "漫画",
+        "Back": "comic",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 427
+    },
+    {
+        "Front": "真中",
+        "Back": "middle",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 428
+    },
+    {
+        "Front": "見える",
+        "Back": "to be in sight",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 429
+    },
+    {
+        "Front": "湖",
+        "Back": "lake",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 430
+    },
+    {
+        "Front": "味噌",
+        "Back": "bean paste",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 431
+    },
+    {
+        "Front": "見つかる",
+        "Back": "to be discovered",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 432
+    },
+    {
+        "Front": "見つける",
+        "Back": "to discover",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 433
+    },
+    {
+        "Front": "皆",
+        "Back": "everybody",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 434
+    },
+    {
+        "Front": "港",
+        "Back": "harbour",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 435
+    },
+    {
+        "Front": "向かう",
+        "Back": "to face",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 436
+    },
+    {
+        "Front": "迎える",
+        "Back": "to go out to meet",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 437
+    },
+    {
+        "Front": "昔",
+        "Back": "olden days, former",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 438
+    },
+    {
+        "Front": "虫",
+        "Back": "insect",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 439
+    },
+    {
+        "Front": "息子",
+        "Back": "(humble) son",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 440
+    },
+    {
+        "Front": "娘",
+        "Back": "(humble) daughter",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 441
+    },
+    {
+        "Front": "無理",
+        "Back": "impossible",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 442
+    },
+    {
+        "Front": "召し上がる",
+        "Back": "(polite) to eat",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 443
+    },
+    {
+        "Front": "珍しい",
+        "Back": "rare",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 444
+    },
+    {
+        "Front": "申し上げる",
+        "Back": "(humble) to say,to tell",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 445
+    },
+    {
+        "Front": "申す",
+        "Back": "(humble) to be called,to say",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 446
+    },
+    {
+        "Front": "もうすぐ",
+        "Back": "soon",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "もし",
+        "Back": "if",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "もちろん",
+        "Back": "of course",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "もっとも",
+        "Back": "extremely",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "戻る",
+        "Back": "to turn back",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 447
+    },
+    {
+        "Front": "木綿",
+        "Back": "cotton",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 448
+    },
+    {
+        "Front": "もらう",
+        "Back": "to receive",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "森",
+        "Back": "forest",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 449
+    },
+    {
+        "Front": "焼く",
+        "Back": "to bake,to grill",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 450
+    },
+    {
+        "Front": "約束",
+        "Back": "promise",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 451
+    },
+    {
+        "Front": "役に立つ",
+        "Back": "to be helpful",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 452
+    },
+    {
+        "Front": "焼ける",
+        "Back": "to burn,to be roasted",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 453
+    },
+    {
+        "Front": "優しい",
+        "Back": "kind",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 454
+    },
+    {
+        "Front": "痩せる",
+        "Back": "to become thin",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 455
+    },
+    {
+        "Front": "やっと",
+        "Back": "at last",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "やはり/やっぱり",
+        "Back": "as I thought,absolutely",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "止む",
+        "Back": "to stop",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 456
+    },
+    {
+        "Front": "柔らかい",
+        "Back": "soft",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 457
+    },
+    {
+        "Front": "湯",
+        "Back": "hot water",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 458
+    },
+    {
+        "Front": "輸出",
+        "Back": "to export",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 459
+    },
+    {
+        "Front": "輸入",
+        "Back": "to import",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 460
+    },
+    {
+        "Front": "指",
+        "Back": "finger",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 461
+    },
+    {
+        "Front": "指輪",
+        "Back": "finger ring",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 462
+    },
+    {
+        "Front": "夢",
+        "Back": "dream",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 463
+    },
+    {
+        "Front": "揺れる",
+        "Back": "to shake,to sway",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 464
+    },
+    {
+        "Front": "用",
+        "Back": "use",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 465
+    },
+    {
+        "Front": "用意",
+        "Back": "preparation",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 466
+    },
+    {
+        "Front": "用事",
+        "Back": "things to do",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 467
+    },
+    {
+        "Front": "汚れる",
+        "Back": "to get dirty",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 468
+    },
+    {
+        "Front": "予習",
+        "Back": "preparation for a lesson",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 469
+    },
+    {
+        "Front": "予定",
+        "Back": "arrangement",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 470
+    },
+    {
+        "Front": "予約",
+        "Back": "reservation",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 471
+    },
+    {
+        "Front": "寄る",
+        "Back": "to visit",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 472
+    },
+    {
+        "Front": "喜ぶ",
+        "Back": "to be delighted",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 473
+    },
+    {
+        "Front": "よろしい",
+        "Back": "(respectful) OK,all right",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "理由",
+        "Back": "reason",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 474
+    },
+    {
+        "Front": "利用",
+        "Back": "utilization",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 475
+    },
+    {
+        "Front": "両方",
+        "Back": "both sides",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 476
+    },
+    {
+        "Front": "旅館",
+        "Back": "Japanese hotel",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 477
+    },
+    {
+        "Front": "留守",
+        "Back": "absence",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 478
+    },
+    {
+        "Front": "冷房",
+        "Back": "air conditioning",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 479
+    },
+    {
+        "Front": "歴史",
+        "Back": "history",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 480
+    },
+    {
+        "Front": "レジ",
+        "Back": "register",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "レポート/リポート",
+        "Back": "report",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "連絡",
+        "Back": "contact",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 481
+    },
+    {
+        "Front": "ワープロ",
+        "Back": "word processor",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": null
+    },
+    {
+        "Front": "沸かす",
+        "Back": "to boil,to heat",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 482
+    },
+    {
+        "Front": "別れる",
+        "Back": "to separate",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 483
+    },
+    {
+        "Front": "沸く",
+        "Back": "to boil, to grow hot,to get excited",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 484
+    },
+    {
+        "Front": "訳",
+        "Back": "meaning,reason",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 485
+    },
+    {
+        "Front": "忘れ物",
+        "Back": "lost article",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 486
+    },
+    {
+        "Front": "笑う",
+        "Back": "to laugh,to smile",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 487
+    },
+    {
+        "Front": "割合",
+        "Back": "rate,ratio,percentage",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 488
+    },
+    {
+        "Front": "割れる",
+        "Back": "to break",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 489
+    },
+    {
+        "Front": "泳ぎ方",
+        "Back": "way of swimming",
+        "Tags": [],
+        "Deck": "n4-vocab-kanji-eng",
+        "HiraganaIndex": 490
+    }
+]
