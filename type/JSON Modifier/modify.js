@@ -1,7 +1,8 @@
 const fs = require('fs');
+const levelToRequire = "1";
 
-let eng = JSON.parse(fs.readFileSync('n4-vocab-kanji-eng.json'));
-let hiragana = JSON.parse(fs.readFileSync('n4-vocab-kanji-hiragana.json'));
+let eng = JSON.parse(fs.readFileSync(`./N${levelToRequire}/n${levelToRequire}-vocab-kanji-eng.json`));
+let hiragana = JSON.parse(fs.readFileSync(`./N${levelToRequire}/n${levelToRequire}-vocab-kanji-hiragana.json`));
 
 var pHiragana = "[\\u3041-\\u3096\\u309D-\\u309F]|\\uD82C\\uDC01|\\uD83C\\uDE00";
 var pKatakana = "[\\u30A1-\\u30FA\\u30FD-\\u30FF\\u31F0-\\u31FF\\u32D0-\\u32FE\\u3300-\\u3357\\uFF66-\\uFF6F\\uFF71-\\uFF9D]|\\uD82C\\uDC00";
@@ -66,4 +67,4 @@ for (let i = 0; i < eng.length; i++) {
     console.log(`> Done updating ${i}, ${eng[i].Front}}`);
 }
 
-fs.writeFileSync('new.json', JSON.stringify(newJSON));
+fs.writeFileSync(`./N${levelToRequire}/n${levelToRequire}-vocab-kanji-eng-new.json`, JSON.stringify(newJSON));

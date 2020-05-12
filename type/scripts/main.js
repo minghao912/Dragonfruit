@@ -23,7 +23,8 @@ define(["require", "exports", "./wordDef", "./loadFile"], function (require, exp
     var scoreDisplay = document.querySelector('#score');
     var timeDisplay = document.querySelector('#time');
     var message = document.querySelector('#message');
-    var resultSection = document.querySelector('#results-section');
+    var resultSectionCorrect = document.querySelector('#results-section-correct');
+    var resultSectionIncorrect = document.querySelector('#results-section-incorrect');
     //const words = loadFileTXT('./scripts/file.txt').split('\n');
     var words, hiragana;
     var levelSelected = false, timeSelected = false;
@@ -44,7 +45,6 @@ define(["require", "exports", "./wordDef", "./loadFile"], function (require, exp
             words = loadFile.loadFileJSON("./lists/" + selection + "-vocab-kanji-eng.json");
             hiragana = loadFile.loadFileJSON("./lists/" + selection + "-vocab-kanji-hiragana.json");
             levelSelected = true;
-            modify(words);
         });
         //Add event listener to time select dropdown box
         timeSelection.addEventListener('change', function (e) {
@@ -55,11 +55,6 @@ define(["require", "exports", "./wordDef", "./loadFile"], function (require, exp
         });
         setInterval(checkStartReq, 100); //Check requirements for game start
         setInterval(checkStatus, 50); //Check game status
-    }
-    function modify(eng) {
-        eng.forEach(function (e) {
-            console.log(e);
-        });
     }
     function checkStartReq() {
         if (!gameStarted && levelSelected && timeSelected) {
@@ -166,20 +161,24 @@ define(["require", "exports", "./wordDef", "./loadFile"], function (require, exp
         //Test
         console.log(kanjiList);
         console.log(hiraganaList);
-        var resultSectionHTML = '';
-        resultSectionHTML += "<h5>Correct Words<h5>";
+        var resultSectionCorrectHTML = '', resultSectionIncorrectHTML = '';
+        //Activate divider
+        document.querySelector('#result-section-divider').hidden = false;
+        //Correct
+        resultSectionCorrectHTML += "<h5 class=\"mb-3\">Correct Words<h5>";
         wordDef.getArray(true).forEach(function (e) {
             console.log("Generating card for index " + e);
             //resultSectionHTML += `<div class="card card-body bg-secondary text-white"><p>${kanjiList[e].Front}</p><br><p>${hiraganaList[e].Back}</p></div>`;
-            resultSectionHTML += "<div class=\"card card-body bg-secondary text-white my-2\"><p>" + kanjiList[e].Front + "</p></div>";
+            resultSectionCorrectHTML += "<div class=\"card card-body bg-secondary text-white my-2\"><p>" + kanjiList[e].Front + "</p></div>";
         });
-        resultSectionHTML += '<hr class="my-4" style="border-top: 1px solid white" />';
-        resultSectionHTML += '<h5>Incorrect Words<h5>';
+        //Incorrect
+        resultSectionIncorrectHTML += '<h5 class="mb-3">Incorrect Words<h5>';
         wordDef.getArray(false).forEach(function (f) {
             console.log("Generating card for index " + f);
             //resultSectionHTML += `<div class="card card-body bg-secondary text-white"><p>${kanjiList[f].Front}</p><br><p>${hiraganaList[f].Back}</p></div>`;
-            resultSectionHTML += "<div class=\"card card-body bg-secondary text-white my-2\"><p>" + kanjiList[f].Front + "</p></div>";
+            resultSectionIncorrectHTML += "<div class=\"card card-body bg-secondary text-white my-2\"><p>" + kanjiList[f].Front + "</p></div>";
         });
-        resultSection.innerHTML = resultSectionHTML;
+        resultSectionCorrect.innerHTML = resultSectionCorrectHTML;
+        resultSectionIncorrect.innerHTML = resultSectionIncorrectHTML;
     }
 });
