@@ -95,12 +95,12 @@ function startMatch() {
 
     isPlaying = true;
     (wordInput as HTMLInputElement).value = '';
+    score++;    //Add one to "Words Typed"
 
     //Check match and update array in wordDef
-    if (match) {
-        score++;
+    if (match) 
         wordDef.addWord(true, currentWordIndex);
-    } else if (!match)
+    else if (!match)
         wordDef.addWord(false, currentWordIndex);
 
     //Generate and display new word
@@ -189,7 +189,7 @@ function showResults(kanjiList: any[], hiraganaList: any[]) {
     (document.querySelector('#result-section-divider') as HTMLElement).hidden = false;
 
     //Correct
-    resultSectionCorrectHTML += `<h5 class="mb-3">Correct Words<h5>`;
+    resultSectionCorrectHTML += `<h5 class="mb-3">Correct Words (${wordDef.getArray(true).length})<h5>`;
     wordDef.getArray(true).forEach(e => {
         console.log(`Generating card for index ${e}`);
         //resultSectionHTML += `<div class="card card-body bg-secondary text-white"><p>${kanjiList[e].Front}</p><br><p>${hiraganaList[e].Back}</p></div>`;
@@ -197,7 +197,7 @@ function showResults(kanjiList: any[], hiraganaList: any[]) {
     });
 
     //Incorrect
-    resultSectionIncorrectHTML += '<h5 class="mb-3">Incorrect Words<h5>';
+    resultSectionIncorrectHTML += `<h5 class="mb-3">Incorrect Words (${wordDef.getArray(false).length})<h5>`;
     wordDef.getArray(false).forEach(f => {
         console.log(`Generating card for index ${f}`);
         //resultSectionHTML += `<div class="card card-body bg-secondary text-white"><p>${kanjiList[f].Front}</p><br><p>${hiraganaList[f].Back}</p></div>`;
