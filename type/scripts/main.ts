@@ -1,7 +1,8 @@
 import * as wordDef from './wordDef';
 import * as loadFile from './loadFile';
+import * as results from './results';
 
-window.addEventListener('load', init);
+window.addEventListener('load', init);  //Run init() on page load
 
 //Globals
 let score: number = 0;
@@ -16,8 +17,6 @@ const currentWord = document.querySelector('#current-word');
 const scoreDisplay = document.querySelector('#score');
 const timeDisplay = document.querySelector('#time');
 const message = document.querySelector('#message');
-const resultSectionCorrect = document.querySelector('#results-section-correct');
-const resultSectionIncorrect = document.querySelector('#results-section-incorrect');
 
 //const words = loadFileTXT('./scripts/file.txt').split('\n');
 let words: any[], hiragana: any[];
@@ -169,41 +168,13 @@ function checkStatus() {
             e.innerHTML = '';
         });
 
-        //Test
+        /** Test
         wordDef.getArray(true).forEach(e => console.log(e));
         wordDef.getArray(false).forEach(f => console.log(f));
+        **/
 
         //Show results
-        showResults(words, hiragana);
+        results.init(words, hiragana);
+        results.showResults();
     }
-}
-
-function showResults(kanjiList: any[], hiraganaList: any[]) {
-    //Test
-    console.log(kanjiList);
-    console.log(hiraganaList);
-
-    let resultSectionCorrectHTML: string = '', resultSectionIncorrectHTML: string = '';
-
-    //Activate divider
-    (document.querySelector('#result-section-divider') as HTMLElement).hidden = false;
-
-    //Correct
-    resultSectionCorrectHTML += `<h5 class="mb-3">Correct Words (${wordDef.getArray(true).length})<h5>`;
-    wordDef.getArray(true).forEach(e => {
-        console.log(`Generating card for index ${e}`);
-        //resultSectionHTML += `<div class="card card-body bg-secondary text-white"><p>${kanjiList[e].Front}</p><br><p>${hiraganaList[e].Back}</p></div>`;
-        resultSectionCorrectHTML += `<div class="card card-body bg-secondary text-white my-2"><p>${kanjiList[e].Front}</p></div>`;
-    });
-
-    //Incorrect
-    resultSectionIncorrectHTML += `<h5 class="mb-3">Incorrect Words (${wordDef.getArray(false).length})<h5>`;
-    wordDef.getArray(false).forEach(f => {
-        console.log(`Generating card for index ${f}`);
-        //resultSectionHTML += `<div class="card card-body bg-secondary text-white"><p>${kanjiList[f].Front}</p><br><p>${hiraganaList[f].Back}</p></div>`;
-        resultSectionIncorrectHTML += `<div class="card card-body bg-secondary text-white my-2"><p>${kanjiList[f].Front}</p></div>`;
-    });
-
-    resultSectionCorrect!.innerHTML = resultSectionCorrectHTML;
-    resultSectionIncorrect!.innerHTML = resultSectionIncorrectHTML;
 }

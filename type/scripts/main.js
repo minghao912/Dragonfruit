@@ -5,12 +5,13 @@ var __importStar = (this && this.__importStar) || function (mod) {
     result["default"] = mod;
     return result;
 };
-define(["require", "exports", "./wordDef", "./loadFile"], function (require, exports, wordDef, loadFile) {
+define(["require", "exports", "./wordDef", "./loadFile", "./results"], function (require, exports, wordDef, loadFile, results) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     wordDef = __importStar(wordDef);
     loadFile = __importStar(loadFile);
-    window.addEventListener('load', init);
+    results = __importStar(results);
+    window.addEventListener('load', init); //Run init() on page load
     //Globals
     var score = 0;
     var time, isPlaying;
@@ -23,8 +24,6 @@ define(["require", "exports", "./wordDef", "./loadFile"], function (require, exp
     var scoreDisplay = document.querySelector('#score');
     var timeDisplay = document.querySelector('#time');
     var message = document.querySelector('#message');
-    var resultSectionCorrect = document.querySelector('#results-section-correct');
-    var resultSectionIncorrect = document.querySelector('#results-section-incorrect');
     //const words = loadFileTXT('./scripts/file.txt').split('\n');
     var words, hiragana;
     var levelSelected = false, timeSelected = false;
@@ -149,35 +148,13 @@ define(["require", "exports", "./wordDef", "./loadFile"], function (require, exp
             document.querySelectorAll('.remove-when-finished').forEach(function (e) {
                 e.innerHTML = '';
             });
-            //Test
-            wordDef.getArray(true).forEach(function (e) { return console.log(e); });
-            wordDef.getArray(false).forEach(function (f) { return console.log(f); });
+            /** Test
+            wordDef.getArray(true).forEach(e => console.log(e));
+            wordDef.getArray(false).forEach(f => console.log(f));
+            **/
             //Show results
-            showResults(words, hiragana);
+            results.init(words, hiragana);
+            results.showResults();
         }
-    }
-    function showResults(kanjiList, hiraganaList) {
-        //Test
-        console.log(kanjiList);
-        console.log(hiraganaList);
-        var resultSectionCorrectHTML = '', resultSectionIncorrectHTML = '';
-        //Activate divider
-        document.querySelector('#result-section-divider').hidden = false;
-        //Correct
-        resultSectionCorrectHTML += "<h5 class=\"mb-3\">Correct Words (" + wordDef.getArray(true).length + ")<h5>";
-        wordDef.getArray(true).forEach(function (e) {
-            console.log("Generating card for index " + e);
-            //resultSectionHTML += `<div class="card card-body bg-secondary text-white"><p>${kanjiList[e].Front}</p><br><p>${hiraganaList[e].Back}</p></div>`;
-            resultSectionCorrectHTML += "<div class=\"card card-body bg-secondary text-white my-2\"><p>" + kanjiList[e].Front + "</p></div>";
-        });
-        //Incorrect
-        resultSectionIncorrectHTML += "<h5 class=\"mb-3\">Incorrect Words (" + wordDef.getArray(false).length + ")<h5>";
-        wordDef.getArray(false).forEach(function (f) {
-            console.log("Generating card for index " + f);
-            //resultSectionHTML += `<div class="card card-body bg-secondary text-white"><p>${kanjiList[f].Front}</p><br><p>${hiraganaList[f].Back}</p></div>`;
-            resultSectionIncorrectHTML += "<div class=\"card card-body bg-secondary text-white my-2\"><p>" + kanjiList[f].Front + "</p></div>";
-        });
-        resultSectionCorrect.innerHTML = resultSectionCorrectHTML;
-        resultSectionIncorrect.innerHTML = resultSectionIncorrectHTML;
     }
 });

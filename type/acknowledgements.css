@@ -9,3 +9,7 @@
 .underline-on-hover:hover {
   text-decoration: underline;
 }
+
+.acknowledgement-text {
+  text-align: center;
+}
