@@ -5,7 +5,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
     result["default"] = mod;
     return result;
 };
-define(["require", "exports", "./wordDef", "./loadFile", "./results"], function (require, exports, wordDef, loadFile, results) {
+define(["require", "exports", "./wordDef", "./loadFile", "./generateResults"], function (require, exports, wordDef, loadFile, results) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     wordDef = __importStar(wordDef);
@@ -154,7 +154,7 @@ define(["require", "exports", "./wordDef", "./loadFile", "./results"], function 
             **/
             //Show results
             results.init(words, hiragana);
-            results.showResults();
+            results.generateResults();
         }
     }
 });
