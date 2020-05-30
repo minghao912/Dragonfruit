@@ -5,11 +5,12 @@ var __importStar = (this && this.__importStar) || function (mod) {
     result["default"] = mod;
     return result;
 };
-define(["require", "exports", "./wordDef", "./loadFile", "./generateResults"], function (require, exports, wordDef, loadFile, results) {
+define(["require", "exports", "./wordDef", "./loadFile", "./generateResults", "./results"], function (require, exports, wordDef, loadFile, generateResults, results) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     wordDef = __importStar(wordDef);
     loadFile = __importStar(loadFile);
+    generateResults = __importStar(generateResults);
     results = __importStar(results);
     window.addEventListener('load', init); //Run init() on page load
     //Globals
@@ -158,8 +159,8 @@ define(["require", "exports", "./wordDef", "./loadFile", "./generateResults"], f
             wordDef.getArray(false).forEach(f => console.log(f));
             **/
             //Show results
-            results.init(words, hiragana);
-            results.generateResults();
+            results.set(words, hiragana);
+            generateResults.generateResults();
         }
     }
 });

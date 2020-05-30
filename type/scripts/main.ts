@@ -1,6 +1,7 @@
 import * as wordDef from './wordDef';
 import * as loadFile from './loadFile';
-import * as results from './generateResults';
+import * as generateResults from './generateResults';
+import * as results from './results';
 
 window.addEventListener('load', init);  //Run init() on page load
 
@@ -179,7 +180,7 @@ function checkStatus() {
         **/
 
         //Show results
-        results.init(words, hiragana);
-        results.generateResults();
+        results.set(words, hiragana);
+        generateResults.generateResults();
     }
 }
