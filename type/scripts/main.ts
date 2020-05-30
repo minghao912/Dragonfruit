@@ -33,7 +33,10 @@ function init() {
 
     //Add event listener to level select dropdown box and load correct JSON
     levelSelection!.addEventListener('change', e => {
-        const selection = (e.target as HTMLInputElement).value;
+        const selection: string = (e.target as HTMLInputElement).value;
+
+        //Don't do anything if the selected value is any invalid value
+        if (!['n1', 'n2', 'n3', 'n4', 'n5'].includes(selection)) return;
 
         console.log(`User selected JLPT Level ${selection}`);
 
@@ -63,6 +66,8 @@ function checkStartReq() {
         startGame();
         gameStarted = true;
 
+        //Activate input box
+        (wordInput! as HTMLInputElement).disabled = false;
         //Disable further changes to selection
         (levelSelection as HTMLInputElement).disabled = (timeSelection as HTMLInputElement).disabled = true;
     }

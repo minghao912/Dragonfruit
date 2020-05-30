@@ -11,7 +11,7 @@ export function init(kanji: any[], hiragana: any[]) {
 }
 
 export function generateResults() {
-    if (kanjiList == null || hiraganaList == null) throw Error("Results module has undefined kanji or hiragana list");
+/*     if (kanjiList == null || hiraganaList == null) throw Error("Results module has undefined kanji or hiragana list");
 
     let resultSectionCorrectHTML: string = '', resultSectionIncorrectHTML: string = '';
 
@@ -41,7 +41,7 @@ export function generateResults() {
     });
 
     resultSectionCorrect!.innerHTML = resultSectionCorrectHTML;
-    resultSectionIncorrect!.innerHTML = resultSectionIncorrectHTML;
+    resultSectionIncorrect!.innerHTML = resultSectionIncorrectHTML; */
 
     //Generate JSON to pass to results page
     const JSONString: string = JSON.stringify({
@@ -54,7 +54,7 @@ export function generateResults() {
     console.log(JSONString);
     console.log(hexJSON);
     
-    window.open(`results.html#${hexJSON}`);
+    window.location.replace(`results.html#${hexJSON}`);
 }
 
 function generateHiragana(index: number): string {

@@ -1,3 +1,8 @@
-.table {
-    text-align: center;
+.underline-on-hover:hover {
+    text-decoration: underline;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
 }

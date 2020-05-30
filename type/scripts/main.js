@@ -39,6 +39,9 @@ define(["require", "exports", "./wordDef", "./loadFile", "./generateResults"], f
         //Add event listener to level select dropdown box and load correct JSON
         levelSelection.addEventListener('change', function (e) {
             var selection = e.target.value;
+            //Don't do anything if the selected value is any invalid value
+            if (!['n1', 'n2', 'n3', 'n4', 'n5'].includes(selection))
+                return;
             console.log("User selected JLPT Level " + selection);
             //Set JSONs in this file
             words = loadFile.loadFileJSON("./lists/" + selection + "-vocab-kanji-eng.json");
@@ -59,6 +62,8 @@ define(["require", "exports", "./wordDef", "./loadFile", "./generateResults"], f
         if (!gameStarted && levelSelected && timeSelected) {
             startGame();
             gameStarted = true;
+            //Activate input box
+            wordInput.disabled = false;
             //Disable further changes to selection
             levelSelection.disabled = timeSelection.disabled = true;
         }
