@@ -41,10 +41,15 @@ function init() {
 
         console.log(`User selected JLPT Level ${selection}`);
 
-        //Set JSONs in this file
-        words = loadFile.loadFileJSON(`./lists/${selection}-vocab-kanji-eng.json`);
-        hiragana = loadFile.loadFileJSON(`./lists/${selection}-vocab-kanji-hiragana.json`);
+        //Set JSONs
+        const kanjiFilename = `./lists/${selection}-vocab-kanji-eng.json`;
+        const hiraganaFilename = `./lists/${selection}-vocab-kanji-hiragana.json`;
 
+        words = loadFile.loadFileJSON(kanjiFilename);
+        hiragana = loadFile.loadFileJSON(hiraganaFilename);
+        generateResults.setFilenames(kanjiFilename, hiraganaFilename);   //for results page
+
+        //Fulfill start game requirement
         levelSelected = true;
     });
 
@@ -180,7 +185,6 @@ function checkStatus() {
         **/
 
         //Show results
-        results.set(words, hiragana);
         generateResults.generateResults();
     }
 }

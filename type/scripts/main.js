@@ -5,13 +5,12 @@ var __importStar = (this && this.__importStar) || function (mod) {
     result["default"] = mod;
     return result;
 };
-define(["require", "exports", "./wordDef", "./loadFile", "./generateResults", "./results"], function (require, exports, wordDef, loadFile, generateResults, results) {
+define(["require", "exports", "./wordDef", "./loadFile", "./generateResults"], function (require, exports, wordDef, loadFile, generateResults) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     wordDef = __importStar(wordDef);
     loadFile = __importStar(loadFile);
     generateResults = __importStar(generateResults);
-    results = __importStar(results);
     window.addEventListener('load', init); //Run init() on page load
     //Globals
     var score = 0;
@@ -44,9 +43,13 @@ define(["require", "exports", "./wordDef", "./loadFile", "./generateResults", ".
             if (!['n1', 'n2', 'n3', 'n4', 'n5'].includes(selection))
                 return;
             console.log("User selected JLPT Level " + selection);
-            //Set JSONs in this file
-            words = loadFile.loadFileJSON("./lists/" + selection + "-vocab-kanji-eng.json");
-            hiragana = loadFile.loadFileJSON("./lists/" + selection + "-vocab-kanji-hiragana.json");
+            //Set JSONs
+            var kanjiFilename = "./lists/" + selection + "-vocab-kanji-eng.json";
+            var hiraganaFilename = "./lists/" + selection + "-vocab-kanji-hiragana.json";
+            words = loadFile.loadFileJSON(kanjiFilename);
+            hiragana = loadFile.loadFileJSON(hiraganaFilename);
+            generateResults.setFilenames(kanjiFilename, hiraganaFilename); //for results page
+            //Fulfill start game requirement
             levelSelected = true;
         });
         //Add event listener to time select dropdown box
@@ -159,7 +162,6 @@ define(["require", "exports", "./wordDef", "./loadFile", "./generateResults", ".
             wordDef.getArray(false).forEach(f => console.log(f));
             **/
             //Show results
-            results.set(words, hiragana);
             generateResults.generateResults();
         }
     }

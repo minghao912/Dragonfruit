@@ -37,11 +37,17 @@
                 </div>
             </div>
         </div>
+
+        <div class="row my-3">
+            <div class="col-md-6 mx-auto">
+                <button type="button" class="btn btn-outline-light btn-lg" id="results-button">Show Results</button>
+            </div>
+        </div>
     </div>
 
     <hr class="my-4" style="border-top: 1px solid white" id="result-section-divider" hidden />
 
-    <div class="container text-center">
+    <div class="container text-center" id="results-carousels" hidden>
         <div class="row mt-2">
             <div class="col md-10">
                 <h1 class="display-4">Incorrect</h1>
@@ -50,13 +56,11 @@
         <div class="row mb-5">
             <div class="col md-10">
                 <div id="resultsCarousel1" class="carousel slide">
-                    <ol class="carousel-indicators">
+                    <ol class="carousel-indicators" id="incorrect-carousel-indicators">
                         <li data-target="#resultsCarousel1" data-slide-to="0" class="active"></li>
-                        <li data-target="#resultsCarousel1" data-slide-to="1"></li>
-                        <li data-target="#resultsCarousel1" data-slide-to="2"></li>
                     </ol>
                     <div class="carousel-inner" id="incorrect-carousel-inner">
-                        <!-- Added via JS -->>
+                        <!-- Added via JS -->
                     </div>
                     <a class="carousel-control-prev" href="#resultsCarousel1" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -78,10 +82,8 @@
         <div class="row mb-5">
             <div class="col md-10">
                 <div id="resultsCarousel2" class="carousel slide">
-                    <ol class="carousel-indicators">
+                    <ol class="carousel-indicators" id="correct-carousel-indicators">
                         <li data-target="#resultsCarousel2" data-slide-to="0" class="active"></li>
-                        <li data-target="#resultsCarousel2" data-slide-to="1"></li>
-                        <li data-target="#resultsCarousel2" data-slide-to="2"></li>
                     </ol>
                     <div class="carousel-inner" id="correct-carousel-inner">
                         <!-- Added via JS -->>

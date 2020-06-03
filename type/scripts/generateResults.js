@@ -9,9 +9,16 @@ define(["require", "exports", "./wordDef"], function (require, exports, wordDef)
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     wordDef = __importStar(wordDef);
+    var kFilename, hFilename;
+    function setFilenames(k, h) {
+        kFilename = k;
+        hFilename = h;
+    }
+    exports.setFilenames = setFilenames;
     function generateResults() {
         //Generate JSON to pass to results page
         var JSONString = JSON.stringify({
+            "Filenames": [kFilename, hFilename],
             "Correct": wordDef.getArray(true),
             "Incorrect": wordDef.getArray(false)
         });
