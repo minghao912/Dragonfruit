@@ -1,6 +1,6 @@
 import * as wordDef from './wordDef';
 import * as loadFile from './loadFile';
-import * as generateResults from './generateResults';
+import * as genResults from './generateResults';
 import * as results from './results';
 
 window.addEventListener('load', init);  //Run init() on page load
@@ -47,7 +47,7 @@ function init() {
 
         words = loadFile.loadFileJSON(kanjiFilename);
         hiragana = loadFile.loadFileJSON(hiraganaFilename);
-        generateResults.setFilenames(kanjiFilename, hiraganaFilename);   //for results page
+        //generateResults.setFilenames(kanjiFilename, hiraganaFilename);
 
         //Fulfill start game requirement
         levelSelected = true;
@@ -179,12 +179,46 @@ function checkStatus() {
             e.innerHTML = '';
         });
 
-        /** Test
-        wordDef.getArray(true).forEach(e => console.log(e));
-        wordDef.getArray(false).forEach(f => console.log(f));
-        **/
-
-        //Show results
-        generateResults.generateResults();
+        generateResults();
     }
+}
+
+function generateResults() {
+    //Generate JSON to pass to results page
+    let urlJSON: any = {
+        //"Filenames": [kFilename, hFilename],
+        "Correct": null,
+        "Incorrect": null
+    };
+
+    let correctArray: any[] = [], incorrectArray: any[] = [];
+
+    //Add correct words to JSON
+    wordDef.getArray(true).forEach(e => {
+        const wordObj: any = words[e];
+
+        if (wordObj.HiraganaIndex == null)
+            correctArray.push({ "kanji": wordObj, "hiragana": null })
+        else if (wordObj.HiraganaIndex != null)
+            correctArray.push({ "kanji": wordObj, "hiragana": hiragana[wordObj.HiraganaIndex] });
+    });
+    urlJSON.Correct = correctArray;
+
+    //Incorrect
+    wordDef.getArray(false).forEach(e => {
+        const wordObj: any = words[e];
+
+        if (wordObj.HiraganaIndex == null)
+            incorrectArray.push({ "kanji": wordObj, "hiragana": null })
+        else if (wordObj.HiraganaIndex != null)
+            incorrectArray.push({ "kanji": wordObj, "hiragana": hiragana[wordObj.HiraganaIndex] });
+    });
+    urlJSON.Incorrect = incorrectArray;
+
+    const JSONString = JSON.stringify(urlJSON);
+    console.log(JSONString);
+
+    sessionStorage.setItem('jsonString', JSONString);
+
+    window.location.replace(`results.html`);
 }

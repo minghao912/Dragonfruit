@@ -5,12 +5,11 @@ var __importStar = (this && this.__importStar) || function (mod) {
     result["default"] = mod;
     return result;
 };
-define(["require", "exports", "./wordDef", "./loadFile", "./generateResults"], function (require, exports, wordDef, loadFile, generateResults) {
+define(["require", "exports", "./wordDef", "./loadFile"], function (require, exports, wordDef, loadFile) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     wordDef = __importStar(wordDef);
     loadFile = __importStar(loadFile);
-    generateResults = __importStar(generateResults);
     window.addEventListener('load', init); //Run init() on page load
     //Globals
     var score = 0;
@@ -48,7 +47,7 @@ define(["require", "exports", "./wordDef", "./loadFile", "./generateResults"], f
             var hiraganaFilename = "./lists/" + selection + "-vocab-kanji-hiragana.json";
             words = loadFile.loadFileJSON(kanjiFilename);
             hiragana = loadFile.loadFileJSON(hiraganaFilename);
-            generateResults.setFilenames(kanjiFilename, hiraganaFilename); //for results page
+            //generateResults.setFilenames(kanjiFilename, hiraganaFilename);
             //Fulfill start game requirement
             levelSelected = true;
         });
@@ -157,12 +156,38 @@ define(["require", "exports", "./wordDef", "./loadFile", "./generateResults"], f
             document.querySelectorAll('.remove-when-finished').forEach(function (e) {
                 e.innerHTML = '';
             });
-            /** Test
-            wordDef.getArray(true).forEach(e => console.log(e));
-            wordDef.getArray(false).forEach(f => console.log(f));
-            **/
-            //Show results
-            generateResults.generateResults();
+            generateResults();
         }
+    }
+    function generateResults() {
+        //Generate JSON to pass to results page
+        var urlJSON = {
+            //"Filenames": [kFilename, hFilename],
+            "Correct": null,
+            "Incorrect": null
+        };
+        var correctArray = [], incorrectArray = [];
+        //Add correct words to JSON
+        wordDef.getArray(true).forEach(function (e) {
+            var wordObj = words[e];
+            if (wordObj.HiraganaIndex == null)
+                correctArray.push({ "kanji": wordObj, "hiragana": null });
+            else if (wordObj.HiraganaIndex != null)
+                correctArray.push({ "kanji": wordObj, "hiragana": hiragana[wordObj.HiraganaIndex] });
+        });
+        urlJSON.Correct = correctArray;
+        //Incorrect
+        wordDef.getArray(false).forEach(function (e) {
+            var wordObj = words[e];
+            if (wordObj.HiraganaIndex == null)
+                incorrectArray.push({ "kanji": wordObj, "hiragana": null });
+            else if (wordObj.HiraganaIndex != null)
+                incorrectArray.push({ "kanji": wordObj, "hiragana": hiragana[wordObj.HiraganaIndex] });
+        });
+        urlJSON.Incorrect = incorrectArray;
+        var JSONString = JSON.stringify(urlJSON);
+        console.log(JSONString);
+        sessionStorage.setItem('jsonString', JSONString);
+        window.location.replace("results.html");
     }
 });

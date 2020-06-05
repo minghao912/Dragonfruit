@@ -1,33 +1,6 @@
-var __importStar = (this && this.__importStar) || function (mod) {
-    if (mod && mod.__esModule) return mod;
-    var result = {};
-    if (mod != null) for (var k in mod) if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
-    result["default"] = mod;
-    return result;
-};
-define(["require", "exports", "./wordDef"], function (require, exports, wordDef) {
+define(["require", "exports"], function (require, exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
-    wordDef = __importStar(wordDef);
-    var kFilename, hFilename;
-    function setFilenames(k, h) {
-        kFilename = k;
-        hFilename = h;
-    }
-    exports.setFilenames = setFilenames;
-    function generateResults() {
-        //Generate JSON to pass to results page
-        var JSONString = JSON.stringify({
-            "Filenames": [kFilename, hFilename],
-            "Correct": wordDef.getArray(true),
-            "Incorrect": wordDef.getArray(false)
-        });
-        var hexJSON = hexEncode(JSONString);
-        console.log(JSONString);
-        console.log(hexJSON);
-        window.location.replace("results.html#" + hexJSON);
-    }
-    exports.generateResults = generateResults;
     //Convert JSON to hex string
     function hexEncode(input) {
         var i;
@@ -37,6 +10,7 @@ define(["require", "exports", "./wordDef"], function (require, exports, wordDef)
         }
         return result;
     }
+    exports.hexEncode = hexEncode;
     function hexDecode(input) {
         var j;
         var hexes = input.match(/.{1,2}/g) || [];
