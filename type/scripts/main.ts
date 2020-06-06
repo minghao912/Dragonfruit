@@ -1,6 +1,5 @@
 import * as wordDef from './wordDef';
 import * as loadFile from './loadFile';
-import * as genResults from './generateResults';
 import * as results from './results';
 
 window.addEventListener('load', init);  //Run init() on page load

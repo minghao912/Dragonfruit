@@ -18,84 +18,90 @@
         <h1 class="my-3">Results</h1>
     </header>
 
-    <div class="container text-center">
-        <div class="row mb-5">
-            <div class="col-md-8 mx-auto">
-                <!-- Time & Score -->
-                <div class="row mt-5">
-                    <div class="col-md-6">
-                        <h3>Time Limit Selected</h3>
-                        <br>
-                        <h4><span id="time">00:00</span></h4>
+    <div class="container" id="page-content">
+        <div class="container text-center" id="initial-display">
+            <div class="row mb-3">
+                <div class="col-md-8 mx-auto">
+                    <!-- Time & Score -->
+                    <div class="row mt-5">
+                        <div class="col-md-6">
+                            <h3>Time Limit Selected</h3>
+                            <br>
+                            <h4><span id="time">00:00</span></h4>
+                        </div>
+        
+                        <div class="col-md-6">
+                            <h3>Words Typed</h3>
+                            <br>
+                            <h4><span id="score">0</span></h4>
+                        </div>
                     </div>
-    
-                    <div class="col-md-6">
-                        <h3>Words Typed</h3>
-                        <br>
-                        <h4><span id="score">0</span></h4>
-                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5 mb-3" id="results-button-div">
+                <div class="col-md-6 mx-auto">
+                    <button type="button" class="btn btn-outline-light btn-lg" id="results-button">Show Results</button>
+                </div>
+            </div>
+
+            <div class="row my-2">
+                <div class="col-md-12 mx-auto">
+                    <hr class="mb-5" style="border-top: 1px solid white" id="result-section-divider" hidden />
                 </div>
             </div>
         </div>
 
-        <div class="row my-3">
-            <div class="col-md-6 mx-auto">
-                <button type="button" class="btn btn-outline-light btn-lg" id="results-button">Show Results</button>
-            </div>
-        </div>
-    </div>
-
-    <hr class="my-4" style="border-top: 1px solid white" id="result-section-divider" hidden />
-
-    <div class="container text-center" id="results-carousels" hidden>
-        <div class="row mt-2">
-            <div class="col md-10">
-                <h1 class="display-4">Incorrect</h1>
-            </div>
-        </div>
-        <div class="row mb-5">
-            <div class="col md-10">
-                <div id="resultsCarousel1" class="carousel slide">
-                    <ol class="carousel-indicators" id="incorrect-carousel-indicators">
-                        <li data-target="#resultsCarousel1" data-slide-to="0" class="active"></li>
-                    </ol>
-                    <div class="carousel-inner" id="incorrect-carousel-inner">
-                        <!-- Added via JS -->
-                    </div>
-                    <a class="carousel-control-prev" href="#resultsCarousel1" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#resultsCarousel1" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+        <div class="container text-center" id="results-carousels" hidden>
+            <div class="row mt-2">
+                <div class="col md-10">
+                    <h1 class="display-4">Incorrect</h1>
                 </div>
             </div>
-        </div>
-
-        <div class="row mt-2">
-            <div class="col md-10">
-                <h1 class="display-4">Correct</h1>
-            </div>
-        </div>
-        <div class="row mb-5">
-            <div class="col md-10">
-                <div id="resultsCarousel2" class="carousel slide">
-                    <ol class="carousel-indicators" id="correct-carousel-indicators">
-                        <li data-target="#resultsCarousel2" data-slide-to="0" class="active"></li>
-                    </ol>
-                    <div class="carousel-inner" id="correct-carousel-inner">
-                        <!-- Added via JS -->>
+            <div class="row mb-5">
+                <div class="col md-10">
+                    <div id="resultsCarousel1" class="carousel slide">
+                        <ol class="carousel-indicators" id="incorrect-carousel-indicators">
+                            <li data-target="#resultsCarousel1" data-slide-to="0" class="active"></li>
+                        </ol>
+                        <div class="carousel-inner" id="incorrect-carousel-inner">
+                            <!-- Added via JS -->
+                        </div>
+                        <a class="carousel-control-prev" href="#resultsCarousel1" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#resultsCarousel1" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
                     </div>
-                    <a class="carousel-control-prev" href="#resultsCarousel2" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#resultsCarousel2" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+                </div>
+            </div>
+
+            <div class="row mt-2">
+                <div class="col md-10">
+                    <h1 class="display-4">Correct</h1>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col md-10">
+                    <div id="resultsCarousel2" class="carousel slide">
+                        <ol class="carousel-indicators" id="correct-carousel-indicators">
+                            <li data-target="#resultsCarousel2" data-slide-to="0" class="active"></li>
+                        </ol>
+                        <div class="carousel-inner" id="correct-carousel-inner">
+                            <!-- Added via JS -->>
+                        </div>
+                        <a class="carousel-control-prev" href="#resultsCarousel2" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#resultsCarousel2" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

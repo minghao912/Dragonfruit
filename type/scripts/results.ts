@@ -1,5 +1,4 @@
-import {hexDecode} from './generateResults';
-import * as loadFile from './loadFile';
+import {hexDecode} from './hex';
 
 if (document.querySelector('#results-button') != null) 
     document.querySelector('#results-button')!.addEventListener('click', init);
@@ -16,7 +15,7 @@ function init() {
 
     //Show carousels and hide button
     (document.querySelector('#results-carousels') as HTMLElement)!.hidden = false;
-    (document.querySelector('#results-button') as HTMLElement)!.hidden = true;
+    (document.querySelector('#results-button-div') as HTMLElement)!.hidden = true;
 
     showResults2();
 }
@@ -29,8 +28,6 @@ function init() {
 
 function showResults2() {
     const JSONString: string = sessionStorage.getItem('jsonString')!;
-    console.log(JSONString);
-
     let urlJSON: any;
 
     try {
@@ -48,26 +45,6 @@ function showResults2() {
     (resultSectionIncorrect as HTMLElement).innerHTML = generatedCards[1];
 }
 
-function showResults() {
-    const hex: string = window.location.hash.substr(1);
-    const JSONString: string = hexDecode(hex);
-    console.log(JSONString);
-
-    let urlJSON: any;
-
-    try {
-        urlJSON = JSON.parse(JSONString);
-    } catch (e) {
-        console.log('JSON unparsable\n' + e);
-    }
-
-    //loadLists(correctIncorrect);
-
-    const generatedCards: string[] = generateCards2(urlJSON);
-    (resultSectionCorrect as HTMLElement).innerHTML = generatedCards[0];
-    (resultSectionIncorrect as HTMLElement).innerHTML = generatedCards[1];
-}
-
 function generateCards2(urlJSON: any): string[] {
     let resultsSectionCorrectHTML: string = '', resultsSectionIncorrectHTML: string = '';
     let correctIndicatorsHTML: string = '', incorrectIndicatorsHTML: string = '';
@@ -77,6 +54,8 @@ function generateCards2(urlJSON: any): string[] {
 
     //Correct Section
     const correct: any[] = urlJSON.Correct;
+    console.log(`Correct: ${correct}`);
+
     //If none correct, put a none card
     if (correct.length == 0) {
         resultsSectionCorrectHTML += `
@@ -89,7 +68,7 @@ function generateCards2(urlJSON: any): string[] {
         </div>`;
     } else {
         for (let i = 0; i < correct.length; i++) {
-            console.log("Generating card for " + JSON.stringify(correct[i]));
+            console.log("Current iteration: " + i + ", generating card for " + JSON.stringify(correct[i]));
 
             //First item of carousel must be marked active
             if (i == 0) {
@@ -101,6 +80,8 @@ function generateCards2(urlJSON: any): string[] {
                         </div>
                     </div>
                 </div>`;
+
+                correctIndicatorsHTML += `<li data-target="#resultsCarousel2" data-slide-to="0" class="active"></li>`;
                 continue;   //Skip rest of loop
             }
 
@@ -122,6 +103,8 @@ function generateCards2(urlJSON: any): string[] {
 
     //Incorrect section
     const incorrect: any[] = urlJSON.Incorrect;
+    console.log(`Inorrect: ${incorrect}`);
+
     if (incorrect.length == 0) {
         resultsSectionIncorrectHTML += `
         <div class="carousel-item active">
@@ -133,7 +116,7 @@ function generateCards2(urlJSON: any): string[] {
         </div>`;
     } else {
         for (let i = 0; i < incorrect.length; i++) {
-            console.log("Generating card for " + JSON.stringify(incorrect[i]));
+            console.log("Current iteration: " + i + ", generating card for " + JSON.stringify(incorrect[i]));
 
             //First item of carousel must be marked active
             if (i == 0) {
@@ -145,6 +128,8 @@ function generateCards2(urlJSON: any): string[] {
                         </div>
                     </div>
                 </div>`;
+
+                incorrectIndicatorsHTML += `<li data-target="#resultsCarousel1" data-slide-to="0" class="active"></li>`;
                 continue;
             }
 
@@ -170,6 +155,26 @@ function generateCards2(urlJSON: any): string[] {
 
     //Final return
     return [resultsSectionCorrectHTML, resultsSectionIncorrectHTML];
+}
+
+function showResults() {
+    const hex: string = window.location.hash.substr(1);
+    const JSONString: string = hexDecode(hex);
+    console.log(JSONString);
+
+    let urlJSON: any;
+
+    try {
+        urlJSON = JSON.parse(JSONString);
+    } catch (e) {
+        console.log('JSON unparsable\n' + e);
+    }
+
+    //loadLists(correctIncorrect);
+
+    const generatedCards: string[] = generateCards2(urlJSON);
+    (resultSectionCorrect as HTMLElement).innerHTML = generatedCards[0];
+    (resultSectionIncorrect as HTMLElement).innerHTML = generatedCards[1];
 }
 
 function generateCards(): string[] {
