@@ -30,10 +30,10 @@
                             <h4><span id="time" hidden>00:00</span></h4>
                         </div>
         
-                        <div class="col-md-6">
+                        <div class="col-md-6" id="words-typed-display">
                             <h3>Words Typed</h3>
                             <br>
-                            <h4><span id="score" hidden>0</span></h4>
+                            <h4><span id="score" data-toggle="popover" data-content="" hidden>0</span></h4>
                         </div>
                     </div>
                 </div>
@@ -117,6 +117,11 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script data-main="scripts/results.js" src="scripts/require.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover();
+        });
+    </script>
 </body>
 
 </html>

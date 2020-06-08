@@ -26,11 +26,10 @@ function showResults2() {
     console.log(urlJSON);
     //Load stats into the words typed and time limit
     var timeDisplay = document.querySelector('#time');
-    var wordsTyped = document.querySelector('#score');
+    var wordsTypedDisplay = document.querySelector('#words-typed-display');
     timeDisplay.innerHTML = Math.floor(urlJSON.TimeSelected / 60000).toString().padStart(2, '0') + ":" + (Math.floor((urlJSON.TimeSelected % 60000) / 1000).toFixed(0)).padStart(2, '0');
-    wordsTyped.innerHTML = urlJSON.WordsTyped;
     timeDisplay.hidden = false;
-    wordsTyped.hidden = false;
+    wordsTypedDisplay.innerHTML = "\n    <h3>Words Typed</h3>\n    <br>\n    <h4><span id=\"score\" data-trigger=\"hover\" data-toggle=\"popover\" data-placement=\"right\" data-html=\"true\" data-content=\"Incorrect: " + urlJSON.Incorrect.length + "</br>Correct: " + urlJSON.Correct.length + "\">" + urlJSON.WordsTyped + "</span></h4>\n    ";
     var generatedCards = generateCards2(urlJSON);
     resultSectionCorrect.innerHTML = generatedCards[0];
     resultSectionIncorrect.innerHTML = generatedCards[1];
