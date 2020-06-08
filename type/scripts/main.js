@@ -12,7 +12,7 @@ define(["require", "exports", "./wordDef", "./loadFile"], function (require, exp
     loadFile = __importStar(loadFile);
     window.addEventListener('load', init); //Run init() on page load
     //Globals
-    var score = 0;
+    var score = 0, timeLimitSelected;
     var time, isPlaying;
     var gameOverStatus = false;
     //DOM Elements
@@ -55,7 +55,7 @@ define(["require", "exports", "./wordDef", "./loadFile"], function (require, exp
         timeSelection.addEventListener('change', function (e) {
             var selection = parseInt(e.target.value);
             console.log("User selected time limit of " + selection / 60000 + " seconds");
-            time = selection;
+            time = timeLimitSelected = selection;
             timeSelected = true;
         });
         setInterval(checkStartReq, 100); //Check requirements for game start
@@ -162,7 +162,8 @@ define(["require", "exports", "./wordDef", "./loadFile"], function (require, exp
     function generateResults() {
         //Generate JSON to pass to results page
         var urlJSON = {
-            //"Filenames": [kFilename, hFilename],
+            "TimeSelected": timeLimitSelected,
+            "WordsTyped": score,
             "Correct": null,
             "Incorrect": null
         };

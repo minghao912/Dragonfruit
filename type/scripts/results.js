@@ -31,7 +31,13 @@ define(["require", "exports", "./hex"], function (require, exports, hex_1) {
             console.log('JSON unparsable\n' + e);
         }
         console.log(urlJSON);
-        //loadLists(correctIncorrect);
+        //Load stats into the words typed and time limit
+        var timeDisplay = document.querySelector('#time');
+        var wordsTyped = document.querySelector('#score');
+        timeDisplay.innerHTML = Math.floor(urlJSON.TimeSelected / 60000).toString().padStart(2, '0') + ":" + (Math.floor((urlJSON.TimeSelected % 60000) / 1000).toFixed(0)).padStart(2, '0');
+        wordsTyped.innerHTML = urlJSON.WordsTyped;
+        timeDisplay.hidden = false;
+        wordsTyped.hidden = false;
         var generatedCards = generateCards2(urlJSON);
         resultSectionCorrect.innerHTML = generatedCards[0];
         resultSectionIncorrect.innerHTML = generatedCards[1];
@@ -43,7 +49,6 @@ define(["require", "exports", "./hex"], function (require, exports, hex_1) {
         document.querySelector('#result-section-divider').hidden = false;
         //Correct Section
         var correct = urlJSON.Correct;
-        console.log("Correct: " + correct);
         //If none correct, put a none card
         if (correct.length == 0) {
             resultsSectionCorrectHTML += "\n        <div class=\"carousel-item active\">\n            <div class=\"card text-center mx-auto bg-secondary text-white my-5\" style = \"width: 32rem;\">\n                <div class=\"card-body\">\n                    <h5 class=\"card-title\">None Correct</h5>\n                </div>\n            </div>\n        </div>";
@@ -64,7 +69,6 @@ define(["require", "exports", "./hex"], function (require, exports, hex_1) {
         }
         //Incorrect section
         var incorrect = urlJSON.Incorrect;
-        console.log("Inorrect: " + incorrect);
         if (incorrect.length == 0) {
             resultsSectionIncorrectHTML += "\n        <div class=\"carousel-item active\">\n            <div class=\"card text-center mx-auto bg-secondary text-white my-5\" style = \"width: 32rem;\">\n                <div class=\"card-body\">\n                    <h5 class=\"card-title\">None Correct</h5>\n                </div>\n            </div>\n        </div>";
         }
@@ -77,7 +81,7 @@ define(["require", "exports", "./hex"], function (require, exports, hex_1) {
                     incorrectIndicatorsHTML += "<li data-target=\"#resultsCarousel1\" data-slide-to=\"0\" class=\"active\"></li>";
                     continue;
                 }
-                resultsSectionCorrectHTML += "\n            <div class=\"carousel-item\">\n                <div class=\"card text-center mx-auto bg-secondary text-white my-5\" style = \"width: 32rem;\">\n                    <div class=\"card-body\">\n                        <p>" + incorrect[i].kanji.Front + "</p>\n                    </div>\n                </div>\n            </div>";
+                resultsSectionIncorrectHTML += "\n            <div class=\"carousel-item\">\n                <div class=\"card text-center mx-auto bg-secondary text-white my-5\" style = \"width: 32rem;\">\n                    <div class=\"card-body\">\n                        <p>" + incorrect[i].kanji.Front + "</p>\n                    </div>\n                </div>\n            </div>";
                 //Add indicators
                 incorrectIndicatorsHTML += "\n            <li data-target=\"#resultsCarousel1\" data-slide-to=\"" + i + "\"></li>\n            ";
             }

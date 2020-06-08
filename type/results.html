@@ -27,13 +27,13 @@
                         <div class="col-md-6">
                             <h3>Time Limit Selected</h3>
                             <br>
-                            <h4><span id="time">00:00</span></h4>
+                            <h4><span id="time" hidden>00:00</span></h4>
                         </div>
         
                         <div class="col-md-6">
                             <h3>Words Typed</h3>
                             <br>
-                            <h4><span id="score">0</span></h4>
+                            <h4><span id="score" hidden>0</span></h4>
                         </div>
                     </div>
                 </div>
@@ -60,7 +60,7 @@
             </div>
             <div class="row mb-5">
                 <div class="col md-10">
-                    <div id="resultsCarousel1" class="carousel slide">
+                    <div id="resultsCarousel1" class="carousel slide" data-interval="false">
                         <ol class="carousel-indicators" id="incorrect-carousel-indicators">
                             <li data-target="#resultsCarousel1" data-slide-to="0" class="active"></li>
                         </ol>
@@ -86,7 +86,7 @@
             </div>
             <div class="row mb-5">
                 <div class="col md-10">
-                    <div id="resultsCarousel2" class="carousel slide">
+                    <div id="resultsCarousel2" class="carousel slide" data-interval="false">
                         <ol class="carousel-indicators" id="correct-carousel-indicators">
                             <li data-target="#resultsCarousel2" data-slide-to="0" class="active"></li>
                         </ol>

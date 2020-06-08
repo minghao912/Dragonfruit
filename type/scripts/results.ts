@@ -38,7 +38,13 @@ function showResults2() {
 
     console.log(urlJSON);
 
-    //loadLists(correctIncorrect);
+    //Load stats into the words typed and time limit
+    const timeDisplay: HTMLElement = document.querySelector('#time') as HTMLElement;
+    const wordsTyped: HTMLElement = document.querySelector('#score') as HTMLElement;
+    timeDisplay.innerHTML = `${Math.floor(urlJSON.TimeSelected / 60000).toString().padStart(2, '0')}:${(Math.floor((urlJSON.TimeSelected % 60000) / 1000).toFixed(0)).padStart(2, '0')}`;
+    wordsTyped.innerHTML = urlJSON.WordsTyped;
+    timeDisplay.hidden = false;
+    wordsTyped.hidden = false;
 
     const generatedCards: string[] = generateCards2(urlJSON);
     (resultSectionCorrect as HTMLElement).innerHTML = generatedCards[0];
@@ -54,7 +60,6 @@ function generateCards2(urlJSON: any): string[] {
 
     //Correct Section
     const correct: any[] = urlJSON.Correct;
-    console.log(`Correct: ${correct}`);
 
     //If none correct, put a none card
     if (correct.length == 0) {
@@ -103,7 +108,6 @@ function generateCards2(urlJSON: any): string[] {
 
     //Incorrect section
     const incorrect: any[] = urlJSON.Incorrect;
-    console.log(`Inorrect: ${incorrect}`);
 
     if (incorrect.length == 0) {
         resultsSectionIncorrectHTML += `
@@ -133,7 +137,7 @@ function generateCards2(urlJSON: any): string[] {
                 continue;
             }
 
-            resultsSectionCorrectHTML += `
+            resultsSectionIncorrectHTML += `
             <div class="carousel-item">
                 <div class="card text-center mx-auto bg-secondary text-white my-5" style = "width: 32rem;">
                     <div class="card-body">

@@ -5,7 +5,7 @@ import * as results from './results';
 window.addEventListener('load', init);  //Run init() on page load
 
 //Globals
-let score: number = 0;
+let score: number = 0, timeLimitSelected: number;
 let time: number, isPlaying: boolean;
 let gameOverStatus: boolean = false;
 
@@ -57,7 +57,7 @@ function init() {
         const selection: number = parseInt((e.target as HTMLInputElement).value);
 
         console.log(`User selected time limit of ${selection / 60000} seconds`);
-        time = selection;
+        time = timeLimitSelected = selection;
         timeSelected = true;
     })
 
@@ -185,7 +185,8 @@ function checkStatus() {
 function generateResults() {
     //Generate JSON to pass to results page
     let urlJSON: any = {
-        //"Filenames": [kFilename, hFilename],
+        "TimeSelected": timeLimitSelected,
+        "WordsTyped": score,
         "Correct": null,
         "Incorrect": null
     };
