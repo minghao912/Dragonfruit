@@ -23,17 +23,18 @@
             <div class="row mb-3">
                 <div class="col-md-8 mx-auto">
                     <!-- Time & Score -->
-                    <div class="row mt-5">
+                    <div class="row mt-5" id="time-score" hidden>
                         <div class="col-md-6">
                             <h3>Time Limit Selected</h3>
                             <br>
-                            <h4><span id="time" hidden>00:00</span></h4>
+                            <h4><span id="time">00:00</span></h4>
                         </div>
         
                         <div class="col-md-6" id="words-typed-display">
                             <h3>Words Typed</h3>
                             <br>
-                            <h4><span id="score" data-toggle="popover" data-content="" hidden>0</span></h4>
+                            <h4><span id="score">N/A</span>
+                            </h4>
                         </div>
                     </div>
                 </div>
@@ -119,7 +120,10 @@
     <script data-main="scripts/results.js" src="scripts/require.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
-            $('[data-toggle="popover"]').popover();
+            //$('[data-toggle="popover"]').popover();
+            $('[data-toggle="popover"]').popover({
+                container: 'body'
+            })
         });
     </script>
 </body>

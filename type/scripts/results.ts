@@ -32,15 +32,10 @@ function showResults2() {
 
     //Load stats into the words typed and time limit
     const timeDisplay: HTMLElement = document.querySelector('#time') as HTMLElement;
-    const wordsTypedDisplay: HTMLElement = document.querySelector('#words-typed-display') as HTMLElement;
+    const scoreDisplay: HTMLElement = document.querySelector('#score') as HTMLElement;
     timeDisplay.innerHTML = `${Math.floor(urlJSON.TimeSelected / 60000).toString().padStart(2, '0')}:${(Math.floor((urlJSON.TimeSelected % 60000) / 1000).toFixed(0)).padStart(2, '0')}`;
-    timeDisplay.hidden = false;
-
-    wordsTypedDisplay.innerHTML = `
-    <h3>Words Typed</h3>
-    <br>
-    <h4><span id="score" data-trigger="hover" data-toggle="popover" data-placement="right" data-html="true" data-content="Incorrect: ${urlJSON.Incorrect.length}</br>Correct: ${urlJSON.Correct.length}">${urlJSON.WordsTyped}</span></h4>
-    `;
+    scoreDisplay.innerHTML = urlJSON.WordsTyped;
+    (document.querySelector('#time-score') as HTMLElement).hidden = false;
 
     const generatedCards: string[] = generateCards2(urlJSON);
     (resultSectionCorrect as HTMLElement).innerHTML = generatedCards[0];
