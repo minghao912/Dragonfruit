@@ -57,8 +57,8 @@ function generateCards2(urlJSON: any): string[] {
         resultsSectionCorrectHTML += `
         <div class="carousel-item active">
             <div class="card text-center mx-auto bg-secondary text-white my-5" style = "width: 32rem;">
-                <div class="card-body">
-                    <h5 class="card-title">None Correct</h5>
+                <div class="card-header">
+                    <h2 class="card-title mt-2">None Correct</h2>
                 </div>
             </div>
         </div>`;
@@ -110,8 +110,8 @@ function generateCards2(urlJSON: any): string[] {
         resultsSectionIncorrectHTML += `
         <div class="carousel-item active">
             <div class="card text-center mx-auto bg-secondary text-white my-5" style = "width: 32rem;">
-                <div class="card-body">
-                    <h5 class="card-title">None Correct</h5>
+                <div class="card-header">
+                    <h2 class="card-title mt-2">None Incorrect</h2>
                 </div>
             </div>
         </div>`;
@@ -165,6 +165,6 @@ function generateCards2(urlJSON: any): string[] {
 }
 
 function generateHiragana(wordObj: any): string {
-    const hiragana = wordObj.hiragana.Back;
-    return hiragana == null ? wordObj.hiragana.Front : hiragana;
+    const hiragana = wordObj.hiragana;
+    return hiragana == null ? wordObj.kanji.Front : hiragana.Back;
 }

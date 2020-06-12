@@ -43,7 +43,7 @@ function generateCards2(urlJSON) {
     var correct = urlJSON.Correct;
     //If none correct, put a none card
     if (correct.length == 0) {
-        resultsSectionCorrectHTML += "\n        <div class=\"carousel-item active\">\n            <div class=\"card text-center mx-auto bg-secondary text-white my-5\" style = \"width: 32rem;\">\n                <div class=\"card-body\">\n                    <h5 class=\"card-title\">None Correct</h5>\n                </div>\n            </div>\n        </div>";
+        resultsSectionCorrectHTML += "\n        <div class=\"carousel-item active\">\n            <div class=\"card text-center mx-auto bg-secondary text-white my-5\" style = \"width: 32rem;\">\n                <div class=\"card-header\">\n                    <h2 class=\"card-title mt-2\">None Correct</h2>\n                </div>\n            </div>\n        </div>";
     }
     else {
         for (var i = 0; i < correct.length; i++) {
@@ -62,7 +62,7 @@ function generateCards2(urlJSON) {
     //Incorrect section
     var incorrect = urlJSON.Incorrect;
     if (incorrect.length == 0) {
-        resultsSectionIncorrectHTML += "\n        <div class=\"carousel-item active\">\n            <div class=\"card text-center mx-auto bg-secondary text-white my-5\" style = \"width: 32rem;\">\n                <div class=\"card-body\">\n                    <h5 class=\"card-title\">None Correct</h5>\n                </div>\n            </div>\n        </div>";
+        resultsSectionIncorrectHTML += "\n        <div class=\"carousel-item active\">\n            <div class=\"card text-center mx-auto bg-secondary text-white my-5\" style = \"width: 32rem;\">\n                <div class=\"card-header\">\n                    <h2 class=\"card-title mt-2\">None Incorrect</h2>\n                </div>\n            </div>\n        </div>";
     }
     else {
         for (var i = 0; i < incorrect.length; i++) {
@@ -85,6 +85,6 @@ function generateCards2(urlJSON) {
     return [resultsSectionCorrectHTML, resultsSectionIncorrectHTML];
 }
 function generateHiragana(wordObj) {
-    var hiragana = wordObj.hiragana.Back;
-    return hiragana == null ? wordObj.hiragana.Front : hiragana;
+    var hiragana = wordObj.hiragana;
+    return hiragana == null ? wordObj.kanji.Front : hiragana.Back;
 }
