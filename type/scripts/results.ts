@@ -71,8 +71,11 @@ function generateCards2(urlJSON: any): string[] {
                 resultsSectionCorrectHTML += `
                 <div class="carousel-item active">
                     <div class="card text-center mx-auto bg-secondary text-white my-5" style = "width: 32rem;">
+                        <div class="card-header">
+                            <h2 class="card-title">${correct[i].kanji.Front}</h2>
+                        </div>
                         <div class="card-body">
-                            <p>${correct[i].kanji.Front}</p>
+                            <h4 class="subtitle">${generateHiragana(correct[i])}</h4>
                         </div>
                     </div>
                 </div>`;
@@ -84,8 +87,11 @@ function generateCards2(urlJSON: any): string[] {
             resultsSectionCorrectHTML += `
             <div class="carousel-item">
                 <div class="card text-center mx-auto bg-secondary text-white my-5" style = "width: 32rem;">
+                    <div class="card-header">
+                        <h2 class="card-title">${correct[i].kanji.Front}</h2>
+                    </div>
                     <div class="card-body">
-                        <p>${correct[i].kanji.Front}</p>
+                        <h4 class="subtitle">${generateHiragana(correct[i])}</h4>
                     </div>
                 </div>
             </div>`;
@@ -118,8 +124,11 @@ function generateCards2(urlJSON: any): string[] {
                 resultsSectionIncorrectHTML += `
                 <div class="carousel-item active">
                     <div class="card text-center mx-auto bg-secondary text-white my-5" style = "width: 32rem;">
+                        <div class="card-header">
+                            <h2 class="card-title">${incorrect[i].kanji.Front}</h2>
+                        </div>
                         <div class="card-body">
-                            <p>${incorrect[i].kanji.Front}</p>
+                            <h4 class="subtitle">${generateHiragana(incorrect[i])}</h4>
                         </div>
                     </div>
                 </div>`;
@@ -131,8 +140,11 @@ function generateCards2(urlJSON: any): string[] {
             resultsSectionIncorrectHTML += `
             <div class="carousel-item">
                 <div class="card text-center mx-auto bg-secondary text-white my-5" style = "width: 32rem;">
+                    <div class="card-header">
+                        <h2 class="card-title">${incorrect[i].kanji.Front}</h2>
+                    </div>
                     <div class="card-body">
-                        <p>${incorrect[i].kanji.Front}</p>
+                        <h4 class="subtitle">${generateHiragana(incorrect[i])}</h4>
                     </div>
                 </div>
             </div>`;
@@ -152,14 +164,7 @@ function generateCards2(urlJSON: any): string[] {
     return [resultsSectionCorrectHTML, resultsSectionIncorrectHTML];
 }
 
-function generateHiragana(index: number): string {
-    const hiraganaIndex: number = kanjiList[index].HiraganaIndex;
-
-    if (hiraganaIndex == null)
-        return "";
-    else try {
-        return hiraganaList[hiraganaIndex].Back;
-    } catch (e) {
-        throw Error(e + `\nKanji List for index ${index} has an invalid hiragana index`);
-    }
+function generateHiragana(wordObj: any): string {
+    const hiragana = wordObj.hiragana.Back;
+    return hiragana == null ? wordObj.hiragana.Front : hiragana;
 }

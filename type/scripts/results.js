@@ -50,11 +50,11 @@ function generateCards2(urlJSON) {
             console.log("Current iteration: " + i + ", generating card for " + JSON.stringify(correct[i]));
             //First item of carousel must be marked active
             if (i == 0) {
-                resultsSectionCorrectHTML += "\n                <div class=\"carousel-item active\">\n                    <div class=\"card text-center mx-auto bg-secondary text-white my-5\" style = \"width: 32rem;\">\n                        <div class=\"card-body\">\n                            <p>" + correct[i].kanji.Front + "</p>\n                        </div>\n                    </div>\n                </div>";
+                resultsSectionCorrectHTML += "\n                <div class=\"carousel-item active\">\n                    <div class=\"card text-center mx-auto bg-secondary text-white my-5\" style = \"width: 32rem;\">\n                        <div class=\"card-header\">\n                            <h2 class=\"card-title\">" + correct[i].kanji.Front + "</h2>\n                        </div>\n                        <div class=\"card-body\">\n                            <h4 class=\"subtitle\">" + generateHiragana(correct[i]) + "</h4>\n                        </div>\n                    </div>\n                </div>";
                 correctIndicatorsHTML += "<li data-target=\"#resultsCarousel2\" data-slide-to=\"0\" class=\"active\"></li>";
                 continue; //Skip rest of loop
             }
-            resultsSectionCorrectHTML += "\n            <div class=\"carousel-item\">\n                <div class=\"card text-center mx-auto bg-secondary text-white my-5\" style = \"width: 32rem;\">\n                    <div class=\"card-body\">\n                        <p>" + correct[i].kanji.Front + "</p>\n                    </div>\n                </div>\n            </div>";
+            resultsSectionCorrectHTML += "\n            <div class=\"carousel-item\">\n                <div class=\"card text-center mx-auto bg-secondary text-white my-5\" style = \"width: 32rem;\">\n                    <div class=\"card-header\">\n                        <h2 class=\"card-title\">" + correct[i].kanji.Front + "</h2>\n                    </div>\n                    <div class=\"card-body\">\n                        <h4 class=\"subtitle\">" + generateHiragana(correct[i]) + "</h4>\n                    </div>\n                </div>\n            </div>";
             //Add indicators
             correctIndicatorsHTML += "\n            <li data-target=\"#resultsCarousel2\" data-slide-to=\"" + i + "\"></li>\n            ";
         }
@@ -69,11 +69,11 @@ function generateCards2(urlJSON) {
             console.log("Current iteration: " + i + ", generating card for " + JSON.stringify(incorrect[i]));
             //First item of carousel must be marked active
             if (i == 0) {
-                resultsSectionIncorrectHTML += "\n                <div class=\"carousel-item active\">\n                    <div class=\"card text-center mx-auto bg-secondary text-white my-5\" style = \"width: 32rem;\">\n                        <div class=\"card-body\">\n                            <p>" + incorrect[i].kanji.Front + "</p>\n                        </div>\n                    </div>\n                </div>";
+                resultsSectionIncorrectHTML += "\n                <div class=\"carousel-item active\">\n                    <div class=\"card text-center mx-auto bg-secondary text-white my-5\" style = \"width: 32rem;\">\n                        <div class=\"card-header\">\n                            <h2 class=\"card-title\">" + incorrect[i].kanji.Front + "</h2>\n                        </div>\n                        <div class=\"card-body\">\n                            <h4 class=\"subtitle\">" + generateHiragana(incorrect[i]) + "</h4>\n                        </div>\n                    </div>\n                </div>";
                 incorrectIndicatorsHTML += "<li data-target=\"#resultsCarousel1\" data-slide-to=\"0\" class=\"active\"></li>";
                 continue;
             }
-            resultsSectionIncorrectHTML += "\n            <div class=\"carousel-item\">\n                <div class=\"card text-center mx-auto bg-secondary text-white my-5\" style = \"width: 32rem;\">\n                    <div class=\"card-body\">\n                        <p>" + incorrect[i].kanji.Front + "</p>\n                    </div>\n                </div>\n            </div>";
+            resultsSectionIncorrectHTML += "\n            <div class=\"carousel-item\">\n                <div class=\"card text-center mx-auto bg-secondary text-white my-5\" style = \"width: 32rem;\">\n                    <div class=\"card-header\">\n                        <h2 class=\"card-title\">" + incorrect[i].kanji.Front + "</h2>\n                    </div>\n                    <div class=\"card-body\">\n                        <h4 class=\"subtitle\">" + generateHiragana(incorrect[i]) + "</h4>\n                    </div>\n                </div>\n            </div>";
             //Add indicators
             incorrectIndicatorsHTML += "\n            <li data-target=\"#resultsCarousel1\" data-slide-to=\"" + i + "\"></li>\n            ";
         }
@@ -84,15 +84,7 @@ function generateCards2(urlJSON) {
     //Final return
     return [resultsSectionCorrectHTML, resultsSectionIncorrectHTML];
 }
-function generateHiragana(index) {
-    var hiraganaIndex = kanjiList[index].HiraganaIndex;
-    if (hiraganaIndex == null)
-        return "";
-    else
-        try {
-            return hiraganaList[hiraganaIndex].Back;
-        }
-        catch (e) {
-            throw Error(e + ("\nKanji List for index " + index + " has an invalid hiragana index"));
-        }
+function generateHiragana(wordObj) {
+    var hiragana = wordObj.hiragana.Back;
+    return hiragana == null ? wordObj.hiragana.Front : hiragana;
 }
