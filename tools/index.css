@@ -2,10 +2,10 @@ header {
     background-color: aliceblue;
 }
 
-.underline-on-hover:hover {
-  text-decoration: underline;
-}
-
 .text-larger {
     font-size: 125%;
+}
+
+.underline-on-hover:hover {
+  text-decoration: underline;
 }
