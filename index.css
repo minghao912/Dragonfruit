@@ -1,0 +1,23 @@
+.underline-on-hover:hover {
+    text-decoration: underline;
+}
+
+.vertical-center {
+    min-height: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+}
+
+.no-margins {
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0% !important;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+}
